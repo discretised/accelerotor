@@ -24,26 +24,10 @@ Archive member included to satisfy reference by file (symbol)
                               /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-malloc.o) (_malloc_r)
 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sbrkr.o)
                               /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
-/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sprintf.o)
-                              CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj (sprintf)
 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-mlock.o)
                               /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
-/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o)
-                              /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sprintf.o) (_svfprintf_r)
-/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                              /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o) (_printf_i)
 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-reent.o)
                               /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sbrkr.o) (errno)
-/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memchr.o)
-                              /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o) (memchr)
-/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memcpy-stub.o)
-                              /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o) (memcpy)
-/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memmove.o)
-                              /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o) (memmove)
-/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-reallocr.o)
-                              /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o) (_realloc_r)
-/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-msizer.o)
-                              /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
 
 Allocating common symbols
 Common symbol       size              file
@@ -66,16 +50,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
- .bss.DSHOT_buffer
-                0x0000000000000000      0x2f0 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
- .text.generate_DSHOT_bitstream
-                0x0000000000000000       0x74 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
- .text.set_DSHOT_PWM
-                0x0000000000000000      0x11c CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
- .text.spin_motor
-                0x0000000000000000       0x38 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
- .text.arm_motors
-                0x0000000000000000       0x5c CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
@@ -216,8 +190,6 @@ Discarded input sections
                 0x0000000000000000       0xbc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .text.HAL_DMA_Start
                 0x0000000000000000       0x78 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .text.HAL_DMA_Start_IT
-                0x0000000000000000       0xb0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .text.HAL_DMA_Abort
                 0x0000000000000000       0xe0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .text.HAL_DMA_PollForTransfer
@@ -230,8 +202,6 @@ Discarded input sections
                 0x0000000000000000       0x1c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .text.HAL_DMA_GetError
                 0x0000000000000000       0x18 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .text.DMA_SetConfig
-                0x0000000000000000       0x5c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
@@ -659,8 +629,6 @@ Discarded input sections
                 0x0000000000000000       0xf0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_PWM_Stop_IT
                 0x0000000000000000      0x11c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_PWM_Start_DMA
-                0x0000000000000000      0x20c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_PWM_Stop_DMA
                 0x0000000000000000      0x14c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_IC_Init
@@ -757,15 +725,9 @@ Discarded input sections
                 0x0000000000000000       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_IC_CaptureHalfCpltCallback
                 0x0000000000000000       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x0000000000000000       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_PWM_PulseFinishedHalfCpltCallback
-                0x0000000000000000       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_TriggerCallback
                 0x0000000000000000       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_TriggerHalfCpltCallback
-                0x0000000000000000       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.HAL_TIM_ErrorCallback
                 0x0000000000000000       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_Base_GetState
                 0x0000000000000000       0x1c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
@@ -779,12 +741,6 @@ Discarded input sections
                 0x0000000000000000       0x1c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.HAL_TIM_Encoder_GetState
                 0x0000000000000000       0x1c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.TIM_DMAError
-                0x0000000000000000       0x24 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.TIM_DMADelayPulseCplt
-                0x0000000000000000       0x70 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.TIM_DMADelayPulseHalfCplt
-                0x0000000000000000       0x70 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_DMACaptureCplt
                 0x0000000000000000       0x70 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_DMACaptureHalfCplt
@@ -807,8 +763,6 @@ Discarded input sections
                 0x0000000000000000       0x78 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_TI4_SetConfig
                 0x0000000000000000       0x78 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .text.TIM_CCxChannelCmd
-                0x0000000000000000       0x48 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
@@ -1023,6 +977,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+ .text.USBD_CDC_TransmitPacket
+                0x0000000000000000       0x60 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
@@ -1044,6 +1000,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+ .text.CDC_Transmit_FS
+                0x0000000000000000       0x4c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
@@ -1103,22 +1061,9 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sbrkr.o)
  .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sbrkr.o)
  .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sbrkr.o)
- .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sprintf.o)
- .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sprintf.o)
- .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sprintf.o)
- .text._sprintf_r
-                0x0000000000000000       0x40 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sprintf.o)
  .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-mlock.o)
  .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-mlock.o)
  .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-mlock.o)
- .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o)
- .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o)
- .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o)
- .text.__ssprint_r
-                0x0000000000000000       0xfe /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o)
- .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
- .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
- .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
  .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-reent.o)
  .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-reent.o)
  .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-reent.o)
@@ -1126,20 +1071,6 @@ Discarded input sections
                 0x0000000000000000       0x1a /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-reent.o)
  .text._reclaim_reent
                 0x0000000000000000       0xb4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-reent.o)
- .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memchr.o)
- .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memchr.o)
- .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memcpy-stub.o)
- .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memcpy-stub.o)
- .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memcpy-stub.o)
- .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memmove.o)
- .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memmove.o)
- .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memmove.o)
- .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-reallocr.o)
- .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-reallocr.o)
- .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-reallocr.o)
- .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-msizer.o)
- .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-msizer.o)
- .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-msizer.o)
  .text          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtend.o
  .data          0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtend.o
  .bss           0x0000000000000000        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtend.o
@@ -1224,828 +1155,826 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000198                . = ALIGN (0x4)
 
-.text           0x00000000080001a0     0x907c
-                0x00000000080001a0                . = ALIGN (0x4)
+.text           0x0000000008000198     0x8f04
+                0x0000000008000198                . = ALIGN (0x4)
  *(.text)
- .text          0x00000000080001a0       0x5c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
- .text          0x00000000080001fc       0x30 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_aeabi_uldivmod.o)
-                0x00000000080001fc                __aeabi_uldivmod
- .text          0x000000000800022c      0x2e4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivmoddi4.o)
-                0x000000000800022c                __udivmoddi4
- .text          0x0000000008000510        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_dvmd_tls.o)
-                0x0000000008000510                __aeabi_ldiv0
-                0x0000000008000510                __aeabi_idiv0
- *fill*         0x0000000008000514        0xc 
- .text          0x0000000008000520       0xa0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memchr.o)
-                0x0000000008000520                memchr
+ .text          0x0000000008000198       0x5c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+ .text          0x00000000080001f4       0x30 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000080001f4                __aeabi_uldivmod
+ .text          0x0000000008000224      0x2e4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivmoddi4.o)
+                0x0000000008000224                __udivmoddi4
+ .text          0x0000000008000508        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_dvmd_tls.o)
+                0x0000000008000508                __aeabi_ldiv0
+                0x0000000008000508                __aeabi_idiv0
  *(.text*)
  .text.HAL_UART_RxCpltCallback
-                0x00000000080005c0      0x290 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
-                0x00000000080005c0                HAL_UART_RxCpltCallback
- .text.main     0x0000000008000850       0x70 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
-                0x0000000008000850                main
+                0x000000000800050c      0x290 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x000000000800050c                HAL_UART_RxCpltCallback
+ .text.main     0x000000000800079c       0x48 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x000000000800079c                main
  .text.SystemClock_Config
-                0x00000000080008c0       0xd0 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
-                0x00000000080008c0                SystemClock_Config
+                0x00000000080007e4       0xd0 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x00000000080007e4                SystemClock_Config
  .text.MX_TIM2_Init
-                0x0000000008000990      0x100 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x00000000080008b4      0x100 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
  .text.MX_TIM4_Init
-                0x0000000008000a90      0x100 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x00000000080009b4      0x100 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
  .text.MX_USART2_UART_Init
-                0x0000000008000b90       0x5c CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x0000000008000ab4       0x5c CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
  .text.MX_DMA_Init
-                0x0000000008000bec       0x70 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x0000000008000b10       0x70 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
  .text.MX_GPIO_Init
-                0x0000000008000c5c       0x68 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x0000000008000b80       0x68 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+ .text.generate_DSHOT_bitstream
+                0x0000000008000be8       0x74 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x0000000008000be8                generate_DSHOT_bitstream
+ .text.set_DSHOT_PWM
+                0x0000000008000c5c      0x11c CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x0000000008000c5c                set_DSHOT_PWM
+ .text.spin_motor
+                0x0000000008000d78       0x38 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x0000000008000d78                spin_motor
+ .text.arm_motors
+                0x0000000008000db0       0x68 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x0000000008000db0                arm_motors
  .text.Error_Handler
-                0x0000000008000cc4        0xc CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
-                0x0000000008000cc4                Error_Handler
+                0x0000000008000e18        0xc CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x0000000008000e18                Error_Handler
  .text.HAL_MspInit
-                0x0000000008000cd0       0x4c CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x0000000008000cd0                HAL_MspInit
+                0x0000000008000e24       0x4c CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x0000000008000e24                HAL_MspInit
  .text.HAL_TIM_Base_MspInit
-                0x0000000008000d1c      0x21c CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x0000000008000d1c                HAL_TIM_Base_MspInit
+                0x0000000008000e70      0x21c CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x0000000008000e70                HAL_TIM_Base_MspInit
  .text.HAL_TIM_MspPostInit
-                0x0000000008000f38       0xfc CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x0000000008000f38                HAL_TIM_MspPostInit
+                0x000000000800108c       0xfc CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x000000000800108c                HAL_TIM_MspPostInit
  .text.HAL_UART_MspInit
-                0x0000000008001034       0xa0 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                0x0000000008001034                HAL_UART_MspInit
+                0x0000000008001188       0xa0 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                0x0000000008001188                HAL_UART_MspInit
  .text.NMI_Handler
-                0x00000000080010d4        0xc CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x00000000080010d4                NMI_Handler
+                0x0000000008001228        0xc CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008001228                NMI_Handler
  .text.HardFault_Handler
-                0x00000000080010e0        0x8 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x00000000080010e0                HardFault_Handler
+                0x0000000008001234        0x8 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008001234                HardFault_Handler
  .text.MemManage_Handler
-                0x00000000080010e8        0x8 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x00000000080010e8                MemManage_Handler
+                0x000000000800123c        0x8 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x000000000800123c                MemManage_Handler
  .text.BusFault_Handler
-                0x00000000080010f0        0x8 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x00000000080010f0                BusFault_Handler
+                0x0000000008001244        0x8 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008001244                BusFault_Handler
  .text.UsageFault_Handler
-                0x00000000080010f8        0x8 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x00000000080010f8                UsageFault_Handler
+                0x000000000800124c        0x8 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x000000000800124c                UsageFault_Handler
  .text.SVC_Handler
-                0x0000000008001100        0xc CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008001100                SVC_Handler
+                0x0000000008001254        0xc CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008001254                SVC_Handler
  .text.DebugMon_Handler
-                0x000000000800110c        0xc CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x000000000800110c                DebugMon_Handler
+                0x0000000008001260        0xc CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008001260                DebugMon_Handler
  .text.PendSV_Handler
-                0x0000000008001118        0xc CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008001118                PendSV_Handler
+                0x000000000800126c        0xc CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x000000000800126c                PendSV_Handler
  .text.SysTick_Handler
-                0x0000000008001124        0xc CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008001124                SysTick_Handler
+                0x0000000008001278        0xc CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008001278                SysTick_Handler
  .text.DMA1_Stream0_IRQHandler
-                0x0000000008001130       0x14 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008001130                DMA1_Stream0_IRQHandler
+                0x0000000008001284       0x14 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008001284                DMA1_Stream0_IRQHandler
  .text.DMA1_Stream1_IRQHandler
-                0x0000000008001144       0x14 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008001144                DMA1_Stream1_IRQHandler
+                0x0000000008001298       0x14 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x0000000008001298                DMA1_Stream1_IRQHandler
  .text.DMA1_Stream3_IRQHandler
-                0x0000000008001158       0x14 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008001158                DMA1_Stream3_IRQHandler
+                0x00000000080012ac       0x14 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x00000000080012ac                DMA1_Stream3_IRQHandler
  .text.DMA1_Stream5_IRQHandler
-                0x000000000800116c       0x14 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x000000000800116c                DMA1_Stream5_IRQHandler
+                0x00000000080012c0       0x14 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x00000000080012c0                DMA1_Stream5_IRQHandler
  .text.USART2_IRQHandler
-                0x0000000008001180       0x14 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008001180                USART2_IRQHandler
+                0x00000000080012d4       0x14 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x00000000080012d4                USART2_IRQHandler
  .text.OTG_FS_IRQHandler
-                0x0000000008001194       0x14 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                0x0000000008001194                OTG_FS_IRQHandler
- .text._sbrk    0x00000000080011a8       0x58 CMakeFiles/accelerotor.elf.dir/Core/Src/syscalls.c.obj
-                0x00000000080011a8                _sbrk
+                0x00000000080012e8       0x14 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                0x00000000080012e8                OTG_FS_IRQHandler
+ .text._sbrk    0x00000000080012fc       0x58 CMakeFiles/accelerotor.elf.dir/Core/Src/syscalls.c.obj
+                0x00000000080012fc                _sbrk
  .text.SystemInit
-                0x0000000008001200       0x18 CMakeFiles/accelerotor.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x0000000008001200                SystemInit
+                0x0000000008001354       0x18 CMakeFiles/accelerotor.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x0000000008001354                SystemInit
  .text.HAL_Init
-                0x0000000008001218       0x44 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0000000008001218                HAL_Init
+                0x000000000800136c       0x44 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x000000000800136c                HAL_Init
  .text.HAL_InitTick
-                0x000000000800125c       0x60 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x000000000800125c                HAL_InitTick
+                0x00000000080013b0       0x60 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x00000000080013b0                HAL_InitTick
  .text.HAL_IncTick
-                0x00000000080012bc       0x24 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x00000000080012bc                HAL_IncTick
+                0x0000000008001410       0x24 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000008001410                HAL_IncTick
  .text.HAL_GetTick
-                0x00000000080012e0       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x00000000080012e0                HAL_GetTick
+                0x0000000008001434       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000008001434                HAL_GetTick
  .text.HAL_Delay
-                0x00000000080012f4       0x44 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x00000000080012f4                HAL_Delay
+                0x0000000008001448       0x44 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000008001448                HAL_Delay
  .text.__NVIC_SetPriorityGrouping
-                0x0000000008001338       0x48 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x000000000800148c       0x48 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x0000000008001380       0x1c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x00000000080014d4       0x1c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.__NVIC_EnableIRQ
-                0x000000000800139c       0x38 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x00000000080014f0       0x38 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x00000000080013d4       0x54 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0000000008001528       0x54 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x0000000008001428       0x60 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x000000000800157c       0x60 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.SysTick_Config
-                0x0000000008001488       0x44 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x00000000080015dc       0x44 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x00000000080014cc       0x18 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x00000000080014cc                HAL_NVIC_SetPriorityGrouping
+                0x0000000008001620       0x18 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0000000008001620                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x00000000080014e4       0x38 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x00000000080014e4                HAL_NVIC_SetPriority
+                0x0000000008001638       0x38 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0000000008001638                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x000000000800151c       0x1c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x000000000800151c                HAL_NVIC_EnableIRQ
+                0x0000000008001670       0x1c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0000000008001670                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0000000008001538       0x18 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0000000008001538                HAL_SYSTICK_Config
+                0x000000000800168c       0x18 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x000000000800168c                HAL_SYSTICK_Config
  .text.HAL_DMA_Init
-                0x0000000008001550      0x15c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x0000000008001550                HAL_DMA_Init
+                0x00000000080016a4      0x15c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x00000000080016a4                HAL_DMA_Init
+ .text.HAL_DMA_Start_IT
+                0x0000000008001800       0xb0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0000000008001800                HAL_DMA_Start_IT
  .text.HAL_DMA_Abort_IT
-                0x00000000080016ac       0x44 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x00000000080016ac                HAL_DMA_Abort_IT
+                0x00000000080018b0       0x44 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x00000000080018b0                HAL_DMA_Abort_IT
  .text.HAL_DMA_IRQHandler
-                0x00000000080016f0      0x314 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
-                0x00000000080016f0                HAL_DMA_IRQHandler
+                0x00000000080018f4      0x314 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x00000000080018f4                HAL_DMA_IRQHandler
+ .text.DMA_SetConfig
+                0x0000000008001c08       0x5c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .text.DMA_CalcBaseAndBitshift
-                0x0000000008001a04       0x68 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0000000008001c64       0x68 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .text.DMA_CheckFifoParam
-                0x0000000008001a6c       0xf4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0000000008001ccc       0xf4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .text.HAL_GPIO_Init
-                0x0000000008001b60      0x304 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x0000000008001b60                HAL_GPIO_Init
+                0x0000000008001dc0      0x304 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x0000000008001dc0                HAL_GPIO_Init
  .text.HAL_PCD_Init
-                0x0000000008001e64      0x23c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-                0x0000000008001e64                HAL_PCD_Init
+                0x00000000080020c4      0x23c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x00000000080020c4                HAL_PCD_Init
  .text.HAL_PCD_Start
-                0x00000000080020a0       0x68 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-                0x00000000080020a0                HAL_PCD_Start
+                0x0000000008002300       0x68 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x0000000008002300                HAL_PCD_Start
  .text.HAL_PCD_IRQHandler
-                0x0000000008002108      0x768 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-                0x0000000008002108                HAL_PCD_IRQHandler
+                0x0000000008002368      0x768 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x0000000008002368                HAL_PCD_IRQHandler
  .text.HAL_PCD_SetAddress
-                0x0000000008002870       0x4c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-                0x0000000008002870                HAL_PCD_SetAddress
+                0x0000000008002ad0       0x4c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x0000000008002ad0                HAL_PCD_SetAddress
  .text.HAL_PCD_EP_Open
-                0x00000000080028bc       0xd0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-                0x00000000080028bc                HAL_PCD_EP_Open
+                0x0000000008002b1c       0xd0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x0000000008002b1c                HAL_PCD_EP_Open
  .text.HAL_PCD_EP_Close
-                0x000000000800298c       0x94 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-                0x000000000800298c                HAL_PCD_EP_Close
+                0x0000000008002bec       0x94 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x0000000008002bec                HAL_PCD_EP_Close
  .text.HAL_PCD_EP_Receive
-                0x0000000008002a20       0x98 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-                0x0000000008002a20                HAL_PCD_EP_Receive
+                0x0000000008002c80       0x98 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x0000000008002c80                HAL_PCD_EP_Receive
  .text.HAL_PCD_EP_GetRxCount
-                0x0000000008002ab8       0x30 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-                0x0000000008002ab8                HAL_PCD_EP_GetRxCount
+                0x0000000008002d18       0x30 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x0000000008002d18                HAL_PCD_EP_GetRxCount
  .text.HAL_PCD_EP_Transmit
-                0x0000000008002ae8       0x94 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-                0x0000000008002ae8                HAL_PCD_EP_Transmit
+                0x0000000008002d48       0x94 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x0000000008002d48                HAL_PCD_EP_Transmit
  .text.HAL_PCD_EP_SetStall
-                0x0000000008002b7c       0xc8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-                0x0000000008002b7c                HAL_PCD_EP_SetStall
+                0x0000000008002ddc       0xc8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x0000000008002ddc                HAL_PCD_EP_SetStall
  .text.HAL_PCD_EP_ClrStall
-                0x0000000008002c44       0xac CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
-                0x0000000008002c44                HAL_PCD_EP_ClrStall
+                0x0000000008002ea4       0xac CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x0000000008002ea4                HAL_PCD_EP_ClrStall
  .text.PCD_WriteEmptyTxFifo
-                0x0000000008002cf0      0x11c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x0000000008002f50      0x11c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
  .text.PCD_EP_OutXfrComplete_int
-                0x0000000008002e0c      0x218 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x000000000800306c      0x218 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
  .text.PCD_EP_OutSetupPacket_int
-                0x0000000008003024       0x8c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+                0x0000000008003284       0x8c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
  .text.HAL_PCDEx_SetTxFiFo
-                0x00000000080030b0       0x8c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
-                0x00000000080030b0                HAL_PCDEx_SetTxFiFo
+                0x0000000008003310       0x8c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
+                0x0000000008003310                HAL_PCDEx_SetTxFiFo
  .text.HAL_PCDEx_SetRxFiFo
-                0x000000000800313c       0x20 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
-                0x000000000800313c                HAL_PCDEx_SetRxFiFo
+                0x000000000800339c       0x20 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
+                0x000000000800339c                HAL_PCDEx_SetRxFiFo
  .text.HAL_PCDEx_LPM_Callback
-                0x000000000800315c       0x18 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
-                0x000000000800315c                HAL_PCDEx_LPM_Callback
+                0x00000000080033bc       0x18 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
+                0x00000000080033bc                HAL_PCDEx_LPM_Callback
  .text.HAL_RCC_OscConfig
-                0x0000000008003174      0x4dc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008003174                HAL_RCC_OscConfig
+                0x00000000080033d4      0x4dc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x00000000080033d4                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x0000000008003650      0x1cc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008003650                HAL_RCC_ClockConfig
+                0x00000000080038b0      0x1cc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x00000000080038b0                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x000000000800381c      0x1ac CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x000000000800381c                HAL_RCC_GetSysClockFreq
+                0x0000000008003a7c      0x1ac CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008003a7c                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x00000000080039c8       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x00000000080039c8                HAL_RCC_GetHCLKFreq
+                0x0000000008003c28       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008003c28                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x00000000080039dc       0x28 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x00000000080039dc                HAL_RCC_GetPCLK1Freq
+                0x0000000008003c3c       0x28 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008003c3c                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0000000008003a04       0x28 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008003a04                HAL_RCC_GetPCLK2Freq
+                0x0000000008003c64       0x28 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008003c64                HAL_RCC_GetPCLK2Freq
  .text.HAL_TIM_Base_Init
-                0x0000000008003a2c       0x58 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008003a2c                HAL_TIM_Base_Init
+                0x0000000008003c8c       0x58 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008003c8c                HAL_TIM_Base_Init
  .text.HAL_TIM_PWM_Init
-                0x0000000008003a84       0x58 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008003a84                HAL_TIM_PWM_Init
+                0x0000000008003ce4       0x58 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008003ce4                HAL_TIM_PWM_Init
  .text.HAL_TIM_PWM_MspInit
-                0x0000000008003adc       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008003adc                HAL_TIM_PWM_MspInit
+                0x0000000008003d3c       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008003d3c                HAL_TIM_PWM_MspInit
+ .text.HAL_TIM_PWM_Start_DMA
+                0x0000000008003d50      0x20c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008003d50                HAL_TIM_PWM_Start_DMA
  .text.HAL_TIM_PWM_ConfigChannel
-                0x0000000008003af0      0x18c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008003af0                HAL_TIM_PWM_ConfigChannel
+                0x0000000008003f5c      0x18c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008003f5c                HAL_TIM_PWM_ConfigChannel
  .text.HAL_TIM_ConfigClockSource
-                0x0000000008003c7c      0x170 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008003c7c                HAL_TIM_ConfigClockSource
+                0x00000000080040e8      0x170 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080040e8                HAL_TIM_ConfigClockSource
+ .text.HAL_TIM_PWM_PulseFinishedCallback
+                0x0000000008004258       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008004258                HAL_TIM_PWM_PulseFinishedCallback
+ .text.HAL_TIM_PWM_PulseFinishedHalfCpltCallback
+                0x000000000800426c       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x000000000800426c                HAL_TIM_PWM_PulseFinishedHalfCpltCallback
+ .text.HAL_TIM_ErrorCallback
+                0x0000000008004280       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008004280                HAL_TIM_ErrorCallback
+ .text.TIM_DMAError
+                0x0000000008004294       0x24 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008004294                TIM_DMAError
+ .text.TIM_DMADelayPulseCplt
+                0x00000000080042b8       0x70 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080042b8                TIM_DMADelayPulseCplt
+ .text.TIM_DMADelayPulseHalfCplt
+                0x0000000008004328       0x70 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008004328                TIM_DMADelayPulseHalfCplt
  .text.TIM_Base_SetConfig
-                0x0000000008003dec       0xfc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008003dec                TIM_Base_SetConfig
+                0x0000000008004398       0xfc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008004398                TIM_Base_SetConfig
  .text.TIM_OC1_SetConfig
-                0x0000000008003ee8       0xcc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008004494       0xcc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_OC2_SetConfig
-                0x0000000008003fb4       0xd4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008003fb4                TIM_OC2_SetConfig
+                0x0000000008004560       0xd4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008004560                TIM_OC2_SetConfig
  .text.TIM_OC3_SetConfig
-                0x0000000008004088       0xd4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008004634       0xd4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_OC4_SetConfig
-                0x000000000800415c       0x9c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008004708       0x9c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_TI1_ConfigInputStage
-                0x00000000080041f8       0x5c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080047a4       0x5c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_TI2_ConfigInputStage
-                0x0000000008004254       0x60 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008004800       0x60 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_ITRx_SetConfig
-                0x00000000080042b4       0x34 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008004860       0x34 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text.TIM_ETR_SetConfig
-                0x00000000080042e8       0x40 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080042e8                TIM_ETR_SetConfig
+                0x0000000008004894       0x40 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008004894                TIM_ETR_SetConfig
+ .text.TIM_CCxChannelCmd
+                0x00000000080048d4       0x48 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080048d4                TIM_CCxChannelCmd
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x0000000008004328       0xd8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x0000000008004328                HAL_TIMEx_MasterConfigSynchronization
+                0x000000000800491c       0xd8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x000000000800491c                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_UART_Init
-                0x0000000008004400       0x9c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0000000008004400                HAL_UART_Init
+                0x00000000080049f4       0x9c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x00000000080049f4                HAL_UART_Init
  .text.HAL_UART_Receive_IT
-                0x000000000800449c       0xa8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x000000000800449c                HAL_UART_Receive_IT
+                0x0000000008004a90       0xa8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008004a90                HAL_UART_Receive_IT
  .text.HAL_UART_IRQHandler
-                0x0000000008004544      0x200 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0000000008004544                HAL_UART_IRQHandler
+                0x0000000008004b38      0x200 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008004b38                HAL_UART_IRQHandler
  .text.HAL_UART_TxCpltCallback
-                0x0000000008004744       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0000000008004744                HAL_UART_TxCpltCallback
+                0x0000000008004d38       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008004d38                HAL_UART_TxCpltCallback
  .text.HAL_UART_ErrorCallback
-                0x0000000008004758       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0000000008004758                HAL_UART_ErrorCallback
+                0x0000000008004d4c       0x14 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008004d4c                HAL_UART_ErrorCallback
  .text.UART_EndRxTransfer
-                0x000000000800476c       0x3c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008004d60       0x3c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_DMAAbortOnError
-                0x00000000080047a8       0x28 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008004d9c       0x28 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_Transmit_IT
-                0x00000000080047d0       0xa8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008004dc4       0xa8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_EndTransmit_IT
-                0x0000000008004878       0x30 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008004e6c       0x30 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_Receive_IT
-                0x00000000080048a8      0x104 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008004e9c      0x104 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_SetConfig
-                0x00000000080049ac      0x67c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008004fa0      0x67c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.USB_CoreInit
-                0x0000000008005028       0xc4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008005028                USB_CoreInit
+                0x000000000800561c       0xc4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x000000000800561c                USB_CoreInit
  .text.USB_SetTurnaroundTime
-                0x00000000080050ec      0x144 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x00000000080050ec                USB_SetTurnaroundTime
+                0x00000000080056e0      0x144 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x00000000080056e0                USB_SetTurnaroundTime
  .text.USB_EnableGlobalInt
-                0x0000000008005230       0x20 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008005230                USB_EnableGlobalInt
+                0x0000000008005824       0x20 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008005824                USB_EnableGlobalInt
  .text.USB_DisableGlobalInt
-                0x0000000008005250       0x20 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008005250                USB_DisableGlobalInt
+                0x0000000008005844       0x20 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008005844                USB_DisableGlobalInt
  .text.USB_SetCurrentMode
-                0x0000000008005270       0x54 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008005270                USB_SetCurrentMode
+                0x0000000008005864       0x54 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008005864                USB_SetCurrentMode
  .text.USB_DevInit
-                0x00000000080052c4      0x2c0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x00000000080052c4                USB_DevInit
+                0x00000000080058b8      0x2c0 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x00000000080058b8                USB_DevInit
  .text.USB_FlushTxFifo
-                0x0000000008005584       0x48 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008005584                USB_FlushTxFifo
+                0x0000000008005b78       0x48 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008005b78                USB_FlushTxFifo
  .text.USB_FlushRxFifo
-                0x00000000080055cc       0x40 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x00000000080055cc                USB_FlushRxFifo
+                0x0000000008005bc0       0x40 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008005bc0                USB_FlushRxFifo
  .text.USB_SetDevSpeed
-                0x000000000800560c       0x34 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x000000000800560c                USB_SetDevSpeed
+                0x0000000008005c00       0x34 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008005c00                USB_SetDevSpeed
  .text.USB_GetDevSpeed
-                0x0000000008005640       0x48 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008005640                USB_GetDevSpeed
+                0x0000000008005c34       0x48 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008005c34                USB_GetDevSpeed
  .text.USB_ActivateEndpoint
-                0x0000000008005688      0x114 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008005688                USB_ActivateEndpoint
+                0x0000000008005c7c      0x114 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008005c7c                USB_ActivateEndpoint
  .text.USB_DeactivateEndpoint
-                0x000000000800579c      0x1bc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x000000000800579c                USB_DeactivateEndpoint
+                0x0000000008005d90      0x1bc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008005d90                USB_DeactivateEndpoint
  .text.USB_EPStartXfer
-                0x0000000008005958      0x4b8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008005958                USB_EPStartXfer
+                0x0000000008005f4c      0x4b8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008005f4c                USB_EPStartXfer
  .text.USB_EP0StartXfer
-                0x0000000008005e10      0x2c4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008005e10                USB_EP0StartXfer
+                0x0000000008006404      0x2c4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006404                USB_EP0StartXfer
  .text.USB_WritePacket
-                0x00000000080060d4       0x68 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x00000000080060d4                USB_WritePacket
+                0x00000000080066c8       0x68 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x00000000080066c8                USB_WritePacket
  .text.USB_ReadPacket
-                0x000000000800613c       0x50 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x000000000800613c                USB_ReadPacket
+                0x0000000008006730       0x50 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006730                USB_ReadPacket
  .text.USB_EPSetStall
-                0x000000000800618c       0xe4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x000000000800618c                USB_EPSetStall
+                0x0000000008006780       0xe4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006780                USB_EPSetStall
  .text.USB_EPClearStall
-                0x0000000008006270       0xd4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008006270                USB_EPClearStall
+                0x0000000008006864       0xd4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006864                USB_EPClearStall
  .text.USB_SetDevAddress
-                0x0000000008006344       0x50 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008006344                USB_SetDevAddress
+                0x0000000008006938       0x50 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006938                USB_SetDevAddress
  .text.USB_DevConnect
-                0x0000000008006394       0x44 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008006394                USB_DevConnect
+                0x0000000008006988       0x44 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006988                USB_DevConnect
  .text.USB_DevDisconnect
-                0x00000000080063d8       0x44 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x00000000080063d8                USB_DevDisconnect
+                0x00000000080069cc       0x44 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x00000000080069cc                USB_DevDisconnect
  .text.USB_ReadInterrupts
-                0x000000000800641c       0x24 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x000000000800641c                USB_ReadInterrupts
+                0x0000000008006a10       0x24 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006a10                USB_ReadInterrupts
  .text.USB_ReadDevAllOutEpInterrupt
-                0x0000000008006440       0x34 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008006440                USB_ReadDevAllOutEpInterrupt
+                0x0000000008006a34       0x34 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006a34                USB_ReadDevAllOutEpInterrupt
  .text.USB_ReadDevAllInEpInterrupt
-                0x0000000008006474       0x34 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008006474                USB_ReadDevAllInEpInterrupt
+                0x0000000008006a68       0x34 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006a68                USB_ReadDevAllInEpInterrupt
  .text.USB_ReadDevOutEPInterrupt
-                0x00000000080064a8       0x3c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x00000000080064a8                USB_ReadDevOutEPInterrupt
+                0x0000000008006a9c       0x3c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006a9c                USB_ReadDevOutEPInterrupt
  .text.USB_ReadDevInEPInterrupt
-                0x00000000080064e4       0x5c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x00000000080064e4                USB_ReadDevInEPInterrupt
+                0x0000000008006ad8       0x5c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006ad8                USB_ReadDevInEPInterrupt
  .text.USB_GetMode
-                0x0000000008006540       0x1c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x0000000008006540                USB_GetMode
+                0x0000000008006b34       0x1c CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006b34                USB_GetMode
  .text.USB_ActivateSetup
-                0x000000000800655c       0x48 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x000000000800655c                USB_ActivateSetup
+                0x0000000008006b50       0x48 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006b50                USB_ActivateSetup
  .text.USB_EP0_OutStart
-                0x00000000080065a4       0xbc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
-                0x00000000080065a4                USB_EP0_OutStart
+                0x0000000008006b98       0xbc CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006b98                USB_EP0_OutStart
  .text.USB_CoreReset
-                0x0000000008006660       0x64 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+                0x0000000008006c54       0x64 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
  .text.USBD_CDC_Init
-                0x00000000080066c4      0x100 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008006cb8      0x100 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_DeInit
-                0x00000000080067c4       0x78 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008006db8       0x78 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_Setup
-                0x000000000800683c      0x178 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008006e30      0x178 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_DataIn
-                0x00000000080069b4       0xc0 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008006fa8       0xc0 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_DataOut
-                0x0000000008006a74       0x58 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008007068       0x58 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_EP0_RxReady
-                0x0000000008006acc       0x50 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x00000000080070c0       0x50 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_GetFSCfgDesc
-                0x0000000008006b1c       0x20 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008007110       0x20 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_GetHSCfgDesc
-                0x0000000008006b3c       0x20 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008007130       0x20 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_GetOtherSpeedCfgDesc
-                0x0000000008006b5c       0x20 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008007150       0x20 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_GetDeviceQualifierDescriptor
-                0x0000000008006b7c       0x20 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x0000000008006b7c                USBD_CDC_GetDeviceQualifierDescriptor
+                0x0000000008007170       0x20 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008007170                USBD_CDC_GetDeviceQualifierDescriptor
  .text.USBD_CDC_RegisterInterface
-                0x0000000008006b9c       0x28 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x0000000008006b9c                USBD_CDC_RegisterInterface
+                0x0000000008007190       0x28 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008007190                USBD_CDC_RegisterInterface
  .text.USBD_CDC_SetTxBuffer
-                0x0000000008006bc4       0x30 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x0000000008006bc4                USBD_CDC_SetTxBuffer
+                0x00000000080071b8       0x30 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x00000000080071b8                USBD_CDC_SetTxBuffer
  .text.USBD_CDC_SetRxBuffer
-                0x0000000008006bf4       0x28 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x0000000008006bf4                USBD_CDC_SetRxBuffer
- .text.USBD_CDC_TransmitPacket
-                0x0000000008006c1c       0x60 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x0000000008006c1c                USBD_CDC_TransmitPacket
+                0x00000000080071e8       0x28 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x00000000080071e8                USBD_CDC_SetRxBuffer
  .text.USBD_CDC_ReceivePacket
-                0x0000000008006c7c       0x54 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x0000000008006c7c                USBD_CDC_ReceivePacket
+                0x0000000008007210       0x54 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008007210                USBD_CDC_ReceivePacket
  .text.USBD_Init
-                0x0000000008006cd0       0x6c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006cd0                USBD_Init
+                0x0000000008007264       0x6c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008007264                USBD_Init
  .text.USBD_RegisterClass
-                0x0000000008006d3c       0x44 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006d3c                USBD_RegisterClass
+                0x00000000080072d0       0x44 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080072d0                USBD_RegisterClass
  .text.USBD_Start
-                0x0000000008006d80       0x18 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006d80                USBD_Start
+                0x0000000008007314       0x18 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008007314                USBD_Start
  .text.USBD_RunTestMode
-                0x0000000008006d98       0x14 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006d98                USBD_RunTestMode
+                0x000000000800732c       0x14 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x000000000800732c                USBD_RunTestMode
  .text.USBD_SetClassConfig
-                0x0000000008006dac       0x38 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006dac                USBD_SetClassConfig
+                0x0000000008007340       0x38 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008007340                USBD_SetClassConfig
  .text.USBD_ClrClassConfig
-                0x0000000008006de4       0x30 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006de4                USBD_ClrClassConfig
+                0x0000000008007378       0x30 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008007378                USBD_ClrClassConfig
  .text.USBD_LL_SetupStage
-                0x0000000008006e14       0xa8 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006e14                USBD_LL_SetupStage
+                0x00000000080073a8       0xa8 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080073a8                USBD_LL_SetupStage
  .text.USBD_LL_DataOutStage
-                0x0000000008006ebc       0xc8 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006ebc                USBD_LL_DataOutStage
+                0x0000000008007450       0xc8 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008007450                USBD_LL_DataOutStage
  .text.USBD_LL_DataInStage
-                0x0000000008006f84      0x12c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006f84                USBD_LL_DataInStage
+                0x0000000008007518      0x12c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008007518                USBD_LL_DataInStage
  .text.USBD_LL_Reset
-                0x00000000080070b0       0x84 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x00000000080070b0                USBD_LL_Reset
+                0x0000000008007644       0x84 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008007644                USBD_LL_Reset
  .text.USBD_LL_SetSpeed
-                0x0000000008007134       0x20 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008007134                USBD_LL_SetSpeed
+                0x00000000080076c8       0x20 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080076c8                USBD_LL_SetSpeed
  .text.USBD_LL_Suspend
-                0x0000000008007154       0x28 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008007154                USBD_LL_Suspend
+                0x00000000080076e8       0x28 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080076e8                USBD_LL_Suspend
  .text.USBD_LL_Resume
-                0x000000000800717c       0x2c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x000000000800717c                USBD_LL_Resume
+                0x0000000008007710       0x2c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008007710                USBD_LL_Resume
  .text.USBD_LL_SOF
-                0x00000000080071a8       0x34 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x00000000080071a8                USBD_LL_SOF
+                0x000000000800773c       0x34 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x000000000800773c                USBD_LL_SOF
  .text.USBD_LL_IsoINIncomplete
-                0x00000000080071dc       0x18 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x00000000080071dc                USBD_LL_IsoINIncomplete
+                0x0000000008007770       0x18 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008007770                USBD_LL_IsoINIncomplete
  .text.USBD_LL_IsoOUTIncomplete
-                0x00000000080071f4       0x18 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x00000000080071f4                USBD_LL_IsoOUTIncomplete
+                0x0000000008007788       0x18 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008007788                USBD_LL_IsoOUTIncomplete
  .text.USBD_LL_DevConnected
-                0x000000000800720c       0x14 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x000000000800720c                USBD_LL_DevConnected
+                0x00000000080077a0       0x14 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080077a0                USBD_LL_DevConnected
  .text.USBD_LL_DevDisconnected
-                0x0000000008007220       0x38 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008007220                USBD_LL_DevDisconnected
+                0x00000000080077b4       0x38 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080077b4                USBD_LL_DevDisconnected
  .text.SWAPBYTE
-                0x0000000008007258       0x3c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x00000000080077ec       0x3c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_StdDevReq
-                0x0000000008007294       0xdc CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x0000000008007294                USBD_StdDevReq
+                0x0000000008007828       0xdc CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008007828                USBD_StdDevReq
  .text.USBD_StdItfReq
-                0x0000000008007370       0x8c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x0000000008007370                USBD_StdItfReq
+                0x0000000008007904       0x8c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008007904                USBD_StdItfReq
  .text.USBD_StdEPReq
-                0x00000000080073fc      0x2ac CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x00000000080073fc                USBD_StdEPReq
+                0x0000000008007990      0x2ac CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008007990                USBD_StdEPReq
  .text.USBD_GetDescriptor
-                0x00000000080076a8      0x2d4 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008007c3c      0x2d4 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_SetAddress
-                0x000000000800797c       0x84 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008007f10       0x84 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_SetConfig
-                0x0000000008007a00      0x148 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008007f94      0x148 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_GetConfig
-                0x0000000008007b48       0x68 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x00000000080080dc       0x68 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_GetStatus
-                0x0000000008007bb0       0x68 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008008144       0x68 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_SetFeature
-                0x0000000008007c18       0x28 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x00000000080081ac       0x28 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_ClrFeature
-                0x0000000008007c40       0x44 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x00000000080081d4       0x44 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_ParseSetupRequest
-                0x0000000008007c84       0x74 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x0000000008007c84                USBD_ParseSetupRequest
+                0x0000000008008218       0x74 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008008218                USBD_ParseSetupRequest
  .text.USBD_CtlError
-                0x0000000008007cf8       0x24 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x0000000008007cf8                USBD_CtlError
+                0x000000000800828c       0x24 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x000000000800828c                USBD_CtlError
  .text.USBD_GetString
-                0x0000000008007d1c       0x8c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x0000000008007d1c                USBD_GetString
+                0x00000000080082b0       0x8c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x00000000080082b0                USBD_GetString
  .text.USBD_GetLen
-                0x0000000008007da8       0x34 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x000000000800833c       0x34 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_CtlSendData
-                0x0000000008007ddc       0x38 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x0000000008007ddc                USBD_CtlSendData
+                0x0000000008008370       0x38 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x0000000008008370                USBD_CtlSendData
  .text.USBD_CtlContinueSendData
-                0x0000000008007e14       0x24 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x0000000008007e14                USBD_CtlContinueSendData
+                0x00000000080083a8       0x24 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x00000000080083a8                USBD_CtlContinueSendData
  .text.USBD_CtlPrepareRx
-                0x0000000008007e38       0x3c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x0000000008007e38                USBD_CtlPrepareRx
+                0x00000000080083cc       0x3c CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x00000000080083cc                USBD_CtlPrepareRx
  .text.USBD_CtlContinueRx
-                0x0000000008007e74       0x24 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x0000000008007e74                USBD_CtlContinueRx
+                0x0000000008008408       0x24 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x0000000008008408                USBD_CtlContinueRx
  .text.USBD_CtlSendStatus
-                0x0000000008007e98       0x28 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x0000000008007e98                USBD_CtlSendStatus
+                0x000000000800842c       0x28 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x000000000800842c                USBD_CtlSendStatus
  .text.USBD_CtlReceiveStatus
-                0x0000000008007ec0       0x28 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x0000000008007ec0                USBD_CtlReceiveStatus
+                0x0000000008008454       0x28 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x0000000008008454                USBD_CtlReceiveStatus
  .text.MX_USB_DEVICE_Init
-                0x0000000008007ee8       0x60 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usb_device.c.obj
-                0x0000000008007ee8                MX_USB_DEVICE_Init
+                0x000000000800847c       0x60 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usb_device.c.obj
+                0x000000000800847c                MX_USB_DEVICE_Init
  .text.CDC_Init_FS
-                0x0000000008007f48       0x28 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x00000000080084dc       0x28 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_DeInit_FS
-                0x0000000008007f70       0x10 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x0000000008008504       0x10 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_Control_FS
-                0x0000000008007f80       0xbc CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x0000000008008514       0xbc CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_Receive_FS
-                0x000000000800803c       0x28 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
- .text.CDC_Transmit_FS
-                0x0000000008008064       0x4c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
-                0x0000000008008064                CDC_Transmit_FS
+                0x00000000080085d0       0x28 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_TransmitCplt_FS
-                0x00000000080080b0       0x20 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x00000000080085f8       0x20 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.USBD_FS_DeviceDescriptor
-                0x00000000080080d0       0x24 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x00000000080080d0                USBD_FS_DeviceDescriptor
+                0x0000000008008618       0x24 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x0000000008008618                USBD_FS_DeviceDescriptor
  .text.USBD_FS_LangIDStrDescriptor
-                0x00000000080080f4       0x24 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x00000000080080f4                USBD_FS_LangIDStrDescriptor
+                0x000000000800863c       0x24 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x000000000800863c                USBD_FS_LangIDStrDescriptor
  .text.USBD_FS_ProductStrDescriptor
-                0x0000000008008118       0x3c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x0000000008008118                USBD_FS_ProductStrDescriptor
+                0x0000000008008660       0x3c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x0000000008008660                USBD_FS_ProductStrDescriptor
  .text.USBD_FS_ManufacturerStrDescriptor
-                0x0000000008008154       0x28 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x0000000008008154                USBD_FS_ManufacturerStrDescriptor
+                0x000000000800869c       0x28 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x000000000800869c                USBD_FS_ManufacturerStrDescriptor
  .text.USBD_FS_SerialStrDescriptor
-                0x000000000800817c       0x24 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x000000000800817c                USBD_FS_SerialStrDescriptor
+                0x00000000080086c4       0x24 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x00000000080086c4                USBD_FS_SerialStrDescriptor
  .text.USBD_FS_ConfigStrDescriptor
-                0x00000000080081a0       0x3c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x00000000080081a0                USBD_FS_ConfigStrDescriptor
+                0x00000000080086e8       0x3c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x00000000080086e8                USBD_FS_ConfigStrDescriptor
  .text.USBD_FS_InterfaceStrDescriptor
-                0x00000000080081dc       0x3c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x00000000080081dc                USBD_FS_InterfaceStrDescriptor
+                0x0000000008008724       0x3c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x0000000008008724                USBD_FS_InterfaceStrDescriptor
  .text.Get_SerialNum
-                0x0000000008008218       0x58 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x0000000008008760       0x58 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
  .text.IntToUnicode
-                0x0000000008008270       0x7c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x00000000080087b8       0x7c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
  .text.HAL_PCD_MspInit
-                0x00000000080082ec       0xa8 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x00000000080082ec                HAL_PCD_MspInit
+                0x0000000008008834       0xa8 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008834                HAL_PCD_MspInit
  .text.HAL_PCD_SetupStageCallback
-                0x0000000008008394       0x24 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008008394                HAL_PCD_SetupStageCallback
+                0x00000000080088dc       0x24 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x00000000080088dc                HAL_PCD_SetupStageCallback
  .text.HAL_PCD_DataOutStageCallback
-                0x00000000080083b8       0x38 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x00000000080083b8                HAL_PCD_DataOutStageCallback
+                0x0000000008008900       0x38 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008900                HAL_PCD_DataOutStageCallback
  .text.HAL_PCD_DataInStageCallback
-                0x00000000080083f0       0x34 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x00000000080083f0                HAL_PCD_DataInStageCallback
+                0x0000000008008938       0x34 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008938                HAL_PCD_DataInStageCallback
  .text.HAL_PCD_SOFCallback
-                0x0000000008008424       0x1c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008008424                HAL_PCD_SOFCallback
+                0x000000000800896c       0x1c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x000000000800896c                HAL_PCD_SOFCallback
  .text.HAL_PCD_ResetCallback
-                0x0000000008008440       0x3c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008008440                HAL_PCD_ResetCallback
+                0x0000000008008988       0x3c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008988                HAL_PCD_ResetCallback
  .text.HAL_PCD_SuspendCallback
-                0x000000000800847c       0x50 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x000000000800847c                HAL_PCD_SuspendCallback
+                0x00000000080089c4       0x50 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x00000000080089c4                HAL_PCD_SuspendCallback
  .text.HAL_PCD_ResumeCallback
-                0x00000000080084cc       0x1c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x00000000080084cc                HAL_PCD_ResumeCallback
+                0x0000000008008a14       0x1c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008a14                HAL_PCD_ResumeCallback
  .text.HAL_PCD_ISOOUTIncompleteCallback
-                0x00000000080084e8       0x24 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x00000000080084e8                HAL_PCD_ISOOUTIncompleteCallback
+                0x0000000008008a30       0x24 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008a30                HAL_PCD_ISOOUTIncompleteCallback
  .text.HAL_PCD_ISOINIncompleteCallback
-                0x000000000800850c       0x24 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x000000000800850c                HAL_PCD_ISOINIncompleteCallback
+                0x0000000008008a54       0x24 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008a54                HAL_PCD_ISOINIncompleteCallback
  .text.HAL_PCD_ConnectCallback
-                0x0000000008008530       0x1c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008008530                HAL_PCD_ConnectCallback
+                0x0000000008008a78       0x1c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008a78                HAL_PCD_ConnectCallback
  .text.HAL_PCD_DisconnectCallback
-                0x000000000800854c       0x1c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x000000000800854c                HAL_PCD_DisconnectCallback
+                0x0000000008008a94       0x1c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008a94                HAL_PCD_DisconnectCallback
  .text.USBD_LL_Init
-                0x0000000008008568       0x98 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008008568                USBD_LL_Init
+                0x0000000008008ab0       0x98 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008ab0                USBD_LL_Init
  .text.USBD_LL_Start
-                0x0000000008008600       0x38 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008008600                USBD_LL_Start
+                0x0000000008008b48       0x38 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008b48                USBD_LL_Start
  .text.USBD_LL_OpenEP
-                0x0000000008008638       0x4c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008008638                USBD_LL_OpenEP
+                0x0000000008008b80       0x4c CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008b80                USBD_LL_OpenEP
  .text.USBD_LL_CloseEP
-                0x0000000008008684       0x40 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008008684                USBD_LL_CloseEP
+                0x0000000008008bcc       0x40 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008bcc                USBD_LL_CloseEP
  .text.USBD_LL_StallEP
-                0x00000000080086c4       0x40 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x00000000080086c4                USBD_LL_StallEP
+                0x0000000008008c0c       0x40 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008c0c                USBD_LL_StallEP
  .text.USBD_LL_ClearStallEP
-                0x0000000008008704       0x40 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008008704                USBD_LL_ClearStallEP
+                0x0000000008008c4c       0x40 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008c4c                USBD_LL_ClearStallEP
  .text.USBD_LL_IsStallEP
-                0x0000000008008744       0x58 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008008744                USBD_LL_IsStallEP
+                0x0000000008008c8c       0x58 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008c8c                USBD_LL_IsStallEP
  .text.USBD_LL_SetUSBAddress
-                0x000000000800879c       0x40 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x000000000800879c                USBD_LL_SetUSBAddress
+                0x0000000008008ce4       0x40 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008ce4                USBD_LL_SetUSBAddress
  .text.USBD_LL_Transmit
-                0x00000000080087dc       0x44 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x00000000080087dc                USBD_LL_Transmit
+                0x0000000008008d24       0x44 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008d24                USBD_LL_Transmit
  .text.USBD_LL_PrepareReceive
-                0x0000000008008820       0x44 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008008820                USBD_LL_PrepareReceive
+                0x0000000008008d68       0x44 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008d68                USBD_LL_PrepareReceive
  .text.USBD_LL_GetRxDataSize
-                0x0000000008008864       0x28 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008008864                USBD_LL_GetRxDataSize
+                0x0000000008008dac       0x28 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008dac                USBD_LL_GetRxDataSize
  .text.USBD_Get_USB_Status
-                0x000000000800888c       0x58 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x000000000800888c                USBD_Get_USB_Status
+                0x0000000008008dd4       0x58 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008008dd4                USBD_Get_USB_Status
  .text.Reset_Handler
-                0x00000000080088e4       0x50 CMakeFiles/accelerotor.elf.dir/startup/startup_stm32f411xe.s.obj
-                0x00000000080088e4                Reset_Handler
+                0x0000000008008e2c       0x50 CMakeFiles/accelerotor.elf.dir/startup/startup_stm32f411xe.s.obj
+                0x0000000008008e2c                Reset_Handler
  .text.Default_Handler
-                0x0000000008008934        0x2 CMakeFiles/accelerotor.elf.dir/startup/startup_stm32f411xe.s.obj
-                0x0000000008008934                DMA2_Stream6_IRQHandler
-                0x0000000008008934                EXTI2_IRQHandler
-                0x0000000008008934                SPI4_IRQHandler
-                0x0000000008008934                TIM1_CC_IRQHandler
-                0x0000000008008934                DMA2_Stream5_IRQHandler
-                0x0000000008008934                PVD_IRQHandler
-                0x0000000008008934                SDIO_IRQHandler
-                0x0000000008008934                TAMP_STAMP_IRQHandler
-                0x0000000008008934                EXTI3_IRQHandler
-                0x0000000008008934                TIM1_UP_TIM10_IRQHandler
-                0x0000000008008934                I2C3_ER_IRQHandler
-                0x0000000008008934                EXTI0_IRQHandler
-                0x0000000008008934                I2C2_EV_IRQHandler
-                0x0000000008008934                DMA1_Stream2_IRQHandler
-                0x0000000008008934                FPU_IRQHandler
-                0x0000000008008934                DMA2_Stream2_IRQHandler
-                0x0000000008008934                SPI1_IRQHandler
-                0x0000000008008934                TIM1_BRK_TIM9_IRQHandler
-                0x0000000008008934                DMA2_Stream3_IRQHandler
-                0x0000000008008934                USART6_IRQHandler
-                0x0000000008008934                DMA2_Stream0_IRQHandler
-                0x0000000008008934                TIM4_IRQHandler
-                0x0000000008008934                I2C1_EV_IRQHandler
-                0x0000000008008934                DMA1_Stream6_IRQHandler
-                0x0000000008008934                TIM3_IRQHandler
-                0x0000000008008934                RCC_IRQHandler
-                0x0000000008008934                Default_Handler
-                0x0000000008008934                EXTI15_10_IRQHandler
-                0x0000000008008934                ADC_IRQHandler
-                0x0000000008008934                DMA1_Stream7_IRQHandler
-                0x0000000008008934                SPI5_IRQHandler
-                0x0000000008008934                TIM5_IRQHandler
-                0x0000000008008934                DMA2_Stream7_IRQHandler
-                0x0000000008008934                I2C3_EV_IRQHandler
-                0x0000000008008934                EXTI9_5_IRQHandler
-                0x0000000008008934                RTC_WKUP_IRQHandler
-                0x0000000008008934                SPI2_IRQHandler
-                0x0000000008008934                EXTI4_IRQHandler
-                0x0000000008008934                WWDG_IRQHandler
-                0x0000000008008934                TIM2_IRQHandler
-                0x0000000008008934                OTG_FS_WKUP_IRQHandler
-                0x0000000008008934                TIM1_TRG_COM_TIM11_IRQHandler
-                0x0000000008008934                EXTI1_IRQHandler
-                0x0000000008008934                I2C2_ER_IRQHandler
-                0x0000000008008934                DMA2_Stream1_IRQHandler
-                0x0000000008008934                FLASH_IRQHandler
-                0x0000000008008934                DMA2_Stream4_IRQHandler
-                0x0000000008008934                USART1_IRQHandler
-                0x0000000008008934                SPI3_IRQHandler
-                0x0000000008008934                DMA1_Stream4_IRQHandler
-                0x0000000008008934                I2C1_ER_IRQHandler
-                0x0000000008008934                RTC_Alarm_IRQHandler
- *fill*         0x0000000008008936        0x2 
- .text.__errno  0x0000000008008938        0xc /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-errno.o)
-                0x0000000008008938                __errno
+                0x0000000008008e7c        0x2 CMakeFiles/accelerotor.elf.dir/startup/startup_stm32f411xe.s.obj
+                0x0000000008008e7c                DMA2_Stream6_IRQHandler
+                0x0000000008008e7c                EXTI2_IRQHandler
+                0x0000000008008e7c                SPI4_IRQHandler
+                0x0000000008008e7c                TIM1_CC_IRQHandler
+                0x0000000008008e7c                DMA2_Stream5_IRQHandler
+                0x0000000008008e7c                PVD_IRQHandler
+                0x0000000008008e7c                SDIO_IRQHandler
+                0x0000000008008e7c                TAMP_STAMP_IRQHandler
+                0x0000000008008e7c                EXTI3_IRQHandler
+                0x0000000008008e7c                TIM1_UP_TIM10_IRQHandler
+                0x0000000008008e7c                I2C3_ER_IRQHandler
+                0x0000000008008e7c                EXTI0_IRQHandler
+                0x0000000008008e7c                I2C2_EV_IRQHandler
+                0x0000000008008e7c                DMA1_Stream2_IRQHandler
+                0x0000000008008e7c                FPU_IRQHandler
+                0x0000000008008e7c                DMA2_Stream2_IRQHandler
+                0x0000000008008e7c                SPI1_IRQHandler
+                0x0000000008008e7c                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008008e7c                DMA2_Stream3_IRQHandler
+                0x0000000008008e7c                USART6_IRQHandler
+                0x0000000008008e7c                DMA2_Stream0_IRQHandler
+                0x0000000008008e7c                TIM4_IRQHandler
+                0x0000000008008e7c                I2C1_EV_IRQHandler
+                0x0000000008008e7c                DMA1_Stream6_IRQHandler
+                0x0000000008008e7c                TIM3_IRQHandler
+                0x0000000008008e7c                RCC_IRQHandler
+                0x0000000008008e7c                Default_Handler
+                0x0000000008008e7c                EXTI15_10_IRQHandler
+                0x0000000008008e7c                ADC_IRQHandler
+                0x0000000008008e7c                DMA1_Stream7_IRQHandler
+                0x0000000008008e7c                SPI5_IRQHandler
+                0x0000000008008e7c                TIM5_IRQHandler
+                0x0000000008008e7c                DMA2_Stream7_IRQHandler
+                0x0000000008008e7c                I2C3_EV_IRQHandler
+                0x0000000008008e7c                EXTI9_5_IRQHandler
+                0x0000000008008e7c                RTC_WKUP_IRQHandler
+                0x0000000008008e7c                SPI2_IRQHandler
+                0x0000000008008e7c                EXTI4_IRQHandler
+                0x0000000008008e7c                WWDG_IRQHandler
+                0x0000000008008e7c                TIM2_IRQHandler
+                0x0000000008008e7c                OTG_FS_WKUP_IRQHandler
+                0x0000000008008e7c                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008008e7c                EXTI1_IRQHandler
+                0x0000000008008e7c                I2C2_ER_IRQHandler
+                0x0000000008008e7c                DMA2_Stream1_IRQHandler
+                0x0000000008008e7c                FLASH_IRQHandler
+                0x0000000008008e7c                DMA2_Stream4_IRQHandler
+                0x0000000008008e7c                USART1_IRQHandler
+                0x0000000008008e7c                SPI3_IRQHandler
+                0x0000000008008e7c                DMA1_Stream4_IRQHandler
+                0x0000000008008e7c                I2C1_ER_IRQHandler
+                0x0000000008008e7c                RTC_Alarm_IRQHandler
+ *fill*         0x0000000008008e7e        0x2 
+ .text.__errno  0x0000000008008e80        0xc /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-errno.o)
+                0x0000000008008e80                __errno
  .text.__libc_init_array
-                0x0000000008008944       0x4c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-init.o)
-                0x0000000008008944                __libc_init_array
- .text.malloc   0x0000000008008990       0x10 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-malloc.o)
-                0x0000000008008990                malloc
- .text.free     0x00000000080089a0       0x10 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-malloc.o)
-                0x00000000080089a0                free
- .text.memset   0x00000000080089b0       0x10 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memset.o)
-                0x00000000080089b0                memset
- .text._free_r  0x00000000080089c0       0x9c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-freer.o)
-                0x00000000080089c0                _free_r
+                0x0000000008008e8c       0x4c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-init.o)
+                0x0000000008008e8c                __libc_init_array
+ .text.malloc   0x0000000008008ed8       0x10 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-malloc.o)
+                0x0000000008008ed8                malloc
+ .text.free     0x0000000008008ee8       0x10 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-malloc.o)
+                0x0000000008008ee8                free
+ .text.memset   0x0000000008008ef8       0x10 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memset.o)
+                0x0000000008008ef8                memset
+ .text._free_r  0x0000000008008f08       0x9c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-freer.o)
+                0x0000000008008f08                _free_r
  .text._malloc_r
-                0x0000000008008a5c       0xbc /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-mallocr.o)
-                0x0000000008008a5c                _malloc_r
- .text._sbrk_r  0x0000000008008b18       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sbrkr.o)
-                0x0000000008008b18                _sbrk_r
- .text.sprintf  0x0000000008008b38       0x48 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sprintf.o)
-                0x0000000008008b38                sprintf
-                0x0000000008008b38                siprintf
+                0x0000000008008fa4       0xbc /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008008fa4                _malloc_r
+ .text._sbrk_r  0x0000000008009060       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sbrkr.o)
+                0x0000000008009060                _sbrk_r
  .text.__malloc_lock
-                0x0000000008008b80        0x2 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-mlock.o)
-                0x0000000008008b80                __malloc_lock
+                0x0000000008009080        0x2 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-mlock.o)
+                0x0000000008009080                __malloc_lock
  .text.__malloc_unlock
-                0x0000000008008b82        0x2 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-mlock.o)
-                0x0000000008008b82                __malloc_unlock
- .text.__ssputs_r
-                0x0000000008008b84       0xb2 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008008b84                __ssputs_r
- *fill*         0x0000000008008c36        0x2 
- .text._svfprintf_r
-                0x0000000008008c38      0x1e8 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o)
-                0x0000000008008c38                _svfprintf_r
-                0x0000000008008c38                _svfiprintf_r
- .text._printf_common
-                0x0000000008008e20       0xec /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008008e20                _printf_common
- .text._printf_i
-                0x0000000008008f0c      0x24c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008008f0c                _printf_i
- .text.memcpy   0x0000000008009158       0x16 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memcpy-stub.o)
-                0x0000000008009158                memcpy
- .text.memmove  0x000000000800916e       0x36 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memmove.o)
-                0x000000000800916e                memmove
- .text._realloc_r
-                0x00000000080091a4       0x4c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-reallocr.o)
-                0x00000000080091a4                _realloc_r
- .text._malloc_usable_size_r
-                0x00000000080091f0       0x14 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-msizer.o)
-                0x00000000080091f0                _malloc_usable_size_r
+                0x0000000008009082        0x2 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-mlock.o)
+                0x0000000008009082                __malloc_unlock
  *(.glue_7)
- .glue_7        0x0000000008009204        0x0 linker stubs
+ .glue_7        0x0000000008009084        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008009204        0x0 linker stubs
+ .glue_7t       0x0000000008009084        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008009204        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+ .eh_frame      0x0000000008009084        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
  *(.init)
- .init          0x0000000008009204        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crti.o
-                0x0000000008009204                _init
- .init          0x0000000008009208        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
+ .init          0x0000000008009084        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crti.o
+                0x0000000008009084                _init
+ .init          0x0000000008009088        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
  *(.fini)
- .fini          0x0000000008009210        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crti.o
-                0x0000000008009210                _fini
- .fini          0x0000000008009214        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
-                0x000000000800921c                . = ALIGN (0x4)
-                0x000000000800921c                _etext = .
+ .fini          0x0000000008009090        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crti.o
+                0x0000000008009090                _fini
+ .fini          0x0000000008009094        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
+                0x000000000800909c                . = ALIGN (0x4)
+                0x000000000800909c                _etext = .
 
-.vfp11_veneer   0x000000000800921c        0x0
- .vfp11_veneer  0x000000000800921c        0x0 linker stubs
+.vfp11_veneer   0x000000000800909c        0x0
+ .vfp11_veneer  0x000000000800909c        0x0 linker stubs
 
-.v4_bx          0x000000000800921c        0x0
- .v4_bx         0x000000000800921c        0x0 linker stubs
+.v4_bx          0x000000000800909c        0x0
+ .v4_bx         0x000000000800909c        0x0 linker stubs
 
-.iplt           0x000000000800921c        0x0
- .iplt          0x000000000800921c        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+.iplt           0x000000000800909c        0x0
+ .iplt          0x000000000800909c        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
 
-.rodata         0x000000000800921c       0xa4
-                0x000000000800921c                . = ALIGN (0x4)
+.rodata         0x000000000800909c       0x68
+                0x000000000800909c                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x000000000800921c        0x7 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
- *fill*         0x0000000008009223        0x1 
- .rodata        0x0000000008009224       0x46 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+ .rodata        0x000000000800909c       0x46 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
  *(.rodata*)
- *fill*         0x000000000800926a        0x2 
+ *fill*         0x00000000080090e2        0x2 
  .rodata.AHBPrescTable
-                0x000000000800926c       0x10 CMakeFiles/accelerotor.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x000000000800926c                AHBPrescTable
+                0x00000000080090e4       0x10 CMakeFiles/accelerotor.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x00000000080090e4                AHBPrescTable
  .rodata.APBPrescTable
-                0x000000000800927c        0x8 CMakeFiles/accelerotor.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x000000000800927c                APBPrescTable
+                0x00000000080090f4        0x8 CMakeFiles/accelerotor.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x00000000080090f4                APBPrescTable
  .rodata.flagBitshiftOffset.7094
-                0x0000000008009284        0x8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .rodata.str1.1
-                0x000000000800928c       0x11 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o)
- .rodata.str1.1
-                0x000000000800929d       0x22 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x00000000080092c0                . = ALIGN (0x4)
- *fill*         0x00000000080092bf        0x1 
+                0x00000000080090fc        0x8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+                0x0000000008009104                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x00000000080092c0        0x8
-                0x00000000080092c0                __exidx_start = .
+.ARM            0x0000000008009104        0x8
+                0x0000000008009104                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x00000000080092c0        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivmoddi4.o)
-                0x00000000080092c8                __exidx_end = .
+ .ARM.exidx     0x0000000008009104        0x8 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/libgcc.a(_udivmoddi4.o)
+                0x000000000800910c                __exidx_end = .
 
-.rel.dyn        0x00000000080092c8        0x0
- .rel.iplt      0x00000000080092c8        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+.rel.dyn        0x000000000800910c        0x0
+ .rel.iplt      0x000000000800910c        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
 
-.preinit_array  0x00000000080092c8        0x0
-                0x00000000080092c8                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x000000000800910c        0x0
+                0x000000000800910c                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x00000000080092c8                PROVIDE (__preinit_array_end, .)
+                0x000000000800910c                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x00000000080092c8        0x4
-                0x00000000080092c8                PROVIDE (__init_array_start, .)
+.init_array     0x000000000800910c        0x4
+                0x000000000800910c                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000080092c8        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
-                0x00000000080092cc                PROVIDE (__init_array_end, .)
+ .init_array    0x000000000800910c        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+                0x0000000008009110                PROVIDE (__init_array_end, .)
 
-.fini_array     0x00000000080092cc        0x4
+.fini_array     0x0000000008009110        0x4
                 [!provide]                        PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000080092cc        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
+ .fini_array    0x0000000008009110        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end, .)
-                0x00000000080092d0                _sidata = LOADADDR (.data)
+                0x0000000008009114                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x1e4 load address 0x00000000080092d0
+.data           0x0000000020000000      0x1e4 load address 0x0000000008009114
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -2099,14 +2028,14 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5
                 0x00000000200001e4                . = ALIGN (0x4)
                 0x00000000200001e4                _edata = .
 
-.jcr            0x00000000200001e4        0x0 load address 0x00000000080094b4
+.jcr            0x00000000200001e4        0x0 load address 0x00000000080092f8
  .jcr           0x00000000200001e4        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
 
-.igot.plt       0x00000000200001e4        0x0 load address 0x00000000080094b4
+.igot.plt       0x00000000200001e4        0x0 load address 0x00000000080092f8
  .igot.plt      0x00000000200001e4        0x0 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtbegin.o
                 0x00000000200001e4                . = ALIGN (0x4)
 
-.bss            0x00000000200001e4     0x1b8c load address 0x00000000080094b4
+.bss            0x00000000200001e4     0x1e7c load address 0x00000000080092f8
                 0x00000000200001e4                _sbss = .
                 0x00000000200001e4                __bss_start__ = _sbss
  *(.bss)
@@ -2137,51 +2066,54 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5
  .bss.SBUSChannelValues
                 0x000000002000045c       0x24 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
                 0x000000002000045c                SBUSChannelValues
+ .bss.DSHOT_buffer
+                0x0000000020000480      0x2f0 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+                0x0000000020000480                DSHOT_buffer
  .bss.heap_end.5922
-                0x0000000020000480        0x4 CMakeFiles/accelerotor.elf.dir/Core/Src/syscalls.c.obj
- .bss.uwTick    0x0000000020000484        0x4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0000000020000484                uwTick
+                0x0000000020000770        0x4 CMakeFiles/accelerotor.elf.dir/Core/Src/syscalls.c.obj
+ .bss.uwTick    0x0000000020000774        0x4 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000020000774                uwTick
  .bss.cfgidx.8920
-                0x0000000020000488        0x1 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
- *fill*         0x0000000020000489        0x3 
+                0x0000000020000778        0x1 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+ *fill*         0x0000000020000779        0x3 
  .bss.hUsbDeviceFS
-                0x000000002000048c      0x2d0 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usb_device.c.obj
-                0x000000002000048c                hUsbDeviceFS
+                0x000000002000077c      0x2d0 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usb_device.c.obj
+                0x000000002000077c                hUsbDeviceFS
  .bss.UserRxBufferFS
-                0x000000002000075c      0x800 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
-                0x000000002000075c                UserRxBufferFS
+                0x0000000020000a4c      0x800 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x0000000020000a4c                UserRxBufferFS
  .bss.UserTxBufferFS
-                0x0000000020000f5c      0x800 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
-                0x0000000020000f5c                UserTxBufferFS
+                0x000000002000124c      0x800 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x000000002000124c                UserTxBufferFS
  .bss.USBD_StrDesc
-                0x000000002000175c      0x200 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x000000002000175c                USBD_StrDesc
+                0x0000000020001a4c      0x200 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x0000000020001a4c                USBD_StrDesc
  .bss.hpcd_USB_OTG_FS
-                0x000000002000195c      0x408 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x000000002000195c                hpcd_USB_OTG_FS
+                0x0000000020001c4c      0x408 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000020001c4c                hpcd_USB_OTG_FS
  .bss.__malloc_sbrk_start
-                0x0000000020001d64        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-mallocr.o)
-                0x0000000020001d64                __malloc_sbrk_start
+                0x0000000020002054        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020002054                __malloc_sbrk_start
  .bss.__malloc_free_list
-                0x0000000020001d68        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-mallocr.o)
-                0x0000000020001d68                __malloc_free_list
+                0x0000000020002058        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000020002058                __malloc_free_list
  *(COMMON)
- COMMON         0x0000000020001d6c        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-reent.o)
-                0x0000000020001d6c                errno
-                0x0000000020001d70                . = ALIGN (0x4)
-                0x0000000020001d70                _ebss = .
-                0x0000000020001d70                __bss_end__ = _ebss
+ COMMON         0x000000002000205c        0x4 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-reent.o)
+                0x000000002000205c                errno
+                0x0000000020002060                . = ALIGN (0x4)
+                0x0000000020002060                _ebss = .
+                0x0000000020002060                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020001d70      0x600 load address 0x00000000080094b4
-                0x0000000020001d70                . = ALIGN (0x8)
-                0x0000000020001d70                PROVIDE (end, .)
+                0x0000000020002060      0x600 load address 0x00000000080092f8
+                0x0000000020002060                . = ALIGN (0x8)
+                0x0000000020002060                PROVIDE (end, .)
                 [!provide]                        PROVIDE (_end, .)
-                0x0000000020001f70                . = (. + _Min_Heap_Size)
- *fill*         0x0000000020001d70      0x200 
-                0x0000000020002370                . = (. + _Min_Stack_Size)
- *fill*         0x0000000020001f70      0x400 
-                0x0000000020002370                . = ALIGN (0x8)
+                0x0000000020002260                . = (. + _Min_Heap_Size)
+ *fill*         0x0000000020002060      0x200 
+                0x0000000020002660                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020002260      0x400 
+                0x0000000020002660                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -2268,27 +2200,11 @@ LOAD /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5
  .ARM.attributes
                 0x00000000000006e1       0x2e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x000000000000070f       0x2e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sprintf.o)
+                0x000000000000070f       0x2e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x000000000000073d       0x2e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-mlock.o)
+                0x000000000000073d       0x2e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-reent.o)
  .ARM.attributes
-                0x000000000000076b       0x2e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o)
- .ARM.attributes
-                0x0000000000000799       0x2e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
- .ARM.attributes
-                0x00000000000007c7       0x2e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-reent.o)
- .ARM.attributes
-                0x00000000000007f5       0x1c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memchr.o)
- .ARM.attributes
-                0x0000000000000811       0x2e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memcpy-stub.o)
- .ARM.attributes
-                0x000000000000083f       0x2e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memmove.o)
- .ARM.attributes
-                0x000000000000086d       0x2e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-reallocr.o)
- .ARM.attributes
-                0x000000000000089b       0x2e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-msizer.o)
- .ARM.attributes
-                0x00000000000008c9       0x1e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
+                0x000000000000076b       0x1e /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/crtn.o
 OUTPUT(accelerotor.elf elf32-littlearm)
 
 .debug_info     0x0000000000000000    0x12dd2
@@ -2424,32 +2340,32 @@ OUTPUT(accelerotor.elf elf32-littlearm)
  .debug_ranges  0x00000000000010f8       0xf0 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
  .debug_ranges  0x00000000000011e8       0x20 CMakeFiles/accelerotor.elf.dir/startup/startup_stm32f411xe.s.obj
 
-.debug_line     0x0000000000000000     0x82f7
- .debug_line    0x0000000000000000      0x48f CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000000000000048f      0x362 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x00000000000007f1      0x390 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x0000000000000b81      0x2c7 CMakeFiles/accelerotor.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x0000000000000e48      0x1fb CMakeFiles/accelerotor.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_line    0x0000000000001043      0x47d CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x00000000000014c0      0x58d CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x0000000000001a4d      0x54f CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_line    0x0000000000001f9c      0x40f CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x00000000000023ab      0x820 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
- .debug_line    0x0000000000002bcb      0x2cb CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
- .debug_line    0x0000000000002e96      0x51e CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x00000000000033b4     0x1340 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x00000000000046f4      0x8a8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_line    0x0000000000004f9c      0xb91 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_line    0x0000000000005b2d      0x9c7 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
- .debug_line    0x00000000000064f4      0x4f0 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
- .debug_line    0x00000000000069e4      0x3f7 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
- .debug_line    0x0000000000006ddb      0x502 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
- .debug_line    0x00000000000072dd      0x275 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
- .debug_line    0x0000000000007552      0x26b CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usb_device.c.obj
- .debug_line    0x00000000000077bd      0x2b0 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
- .debug_line    0x0000000000007a6d      0x29a CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
- .debug_line    0x0000000000007d07      0x54e CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
- .debug_line    0x0000000000008255       0xa2 CMakeFiles/accelerotor.elf.dir/startup/startup_stm32f411xe.s.obj
+.debug_line     0x0000000000000000     0x82f3
+ .debug_line    0x0000000000000000      0x48b CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000000000000048b      0x362 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x00000000000007ed      0x390 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x0000000000000b7d      0x2c7 CMakeFiles/accelerotor.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x0000000000000e44      0x1fb CMakeFiles/accelerotor.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_line    0x000000000000103f      0x47d CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x00000000000014bc      0x58d CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x0000000000001a49      0x54f CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_line    0x0000000000001f98      0x40f CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x00000000000023a7      0x820 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+ .debug_line    0x0000000000002bc7      0x2cb CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
+ .debug_line    0x0000000000002e92      0x51e CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x00000000000033b0     0x1340 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_line    0x00000000000046f0      0x8a8 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_line    0x0000000000004f98      0xb91 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_line    0x0000000000005b29      0x9c7 CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+ .debug_line    0x00000000000064f0      0x4f0 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+ .debug_line    0x00000000000069e0      0x3f7 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+ .debug_line    0x0000000000006dd7      0x502 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+ .debug_line    0x00000000000072d9      0x275 CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+ .debug_line    0x000000000000754e      0x26b CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usb_device.c.obj
+ .debug_line    0x00000000000077b9      0x2b0 CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+ .debug_line    0x0000000000007a69      0x29a CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+ .debug_line    0x0000000000007d03      0x54e CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+ .debug_line    0x0000000000008251       0xa2 CMakeFiles/accelerotor.elf.dir/startup/startup_stm32f411xe.s.obj
 
 .debug_str      0x0000000000000000     0x5af7
  .debug_str     0x0000000000000000      0xf97 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
@@ -2528,7 +2444,7 @@ OUTPUT(accelerotor.elf elf32-littlearm)
  .comment       0x000000000000006e       0x6f CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
  .comment       0x000000000000006e       0x6f CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
 
-.debug_frame    0x0000000000000000     0x5540
+.debug_frame    0x0000000000000000     0x5334
  .debug_frame   0x0000000000000000      0x1e0 CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
  .debug_frame   0x00000000000001e0       0xec CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
  .debug_frame   0x00000000000002cc      0x1b4 CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
@@ -2562,12 +2478,5 @@ OUTPUT(accelerotor.elf elf32-littlearm)
  .debug_frame   0x0000000000005218       0x38 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-freer.o)
  .debug_frame   0x0000000000005250       0x2c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-mallocr.o)
  .debug_frame   0x000000000000527c       0x2c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x00000000000052a8       0x70 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-sprintf.o)
- .debug_frame   0x0000000000005318       0x30 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-mlock.o)
- .debug_frame   0x0000000000005348       0x90 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x00000000000053d8       0x60 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x0000000000005438       0x5c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-reent.o)
- .debug_frame   0x0000000000005494       0x28 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x00000000000054bc       0x28 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-memmove.o)
- .debug_frame   0x00000000000054e4       0x3c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x0000000000005520       0x20 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00000000000052a8       0x30 /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00000000000052d8       0x5c /usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/libg_nano.a(lib_a-reent.o)

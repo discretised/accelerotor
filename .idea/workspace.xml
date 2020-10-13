@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="accelerotor" targetName="accelerotor.elf" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -10,173 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f2502a7-fbab-478e-917b-647471525b0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armcc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armclang.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_compiler.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_gcc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_iccarm.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_version.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mbl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mml.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0plus.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm1.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm23.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm3.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm33.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm4.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm7.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc000.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc300.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv7.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv8.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Include/tz_context.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/main.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/stm32f4xx_hal_conf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/stm32f4xx_it.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/usb_device.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/usbd_cdc_if.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/usbd_conf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inc/usbd_desc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/STM32F411CEUx_FLASH.ld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/stm32f4xx_hal_msp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/stm32f4xx_it.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/syscalls.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/system_stm32f4xx.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/usb_device.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/usbd_cdc_if.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/usbd_conf.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/usbd_desc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeASMCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/ASM.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Src/main.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Src/stm32f4xx_it.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Src/syscalls.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Src/system_stm32f4xx.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Src/usb_device.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Src/usbd_cdc_if.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Src/usbd_conf.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/Src/usbd_desc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/fc_hack.elf.dir/startup/startup_stm32f411xe.s.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/fc_hack.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/fc_hack.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/fc_hack.elf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/fc_hack.hex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/fc_hack.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fc_hack.ioc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fc_hack.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/startup/startup_stm32f411xe.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_accelerotor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/OCD_accelerotor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accelerotor.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/accelerotor.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/ASM.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/ASM.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/accelerotor.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/accelerotor.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/accelerotor.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/accelerotor.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/accelerotor.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/accelerotor.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/accelerotor.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/accelerotor.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,6 +36,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -198,6 +49,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD accelerotor">
     <configuration name="accelerotor.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerotor" TARGET_NAME="accelerotor.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerotor" RUN_TARGET_NAME="accelerotor.elf">
@@ -220,11 +72,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602612796483</updated>
-      <workItem from="1602612810338" duration="953000" />
+      <workItem from="1602612810338" duration="4764000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="469" y="190" key="SettingsEditor" timestamp="1602614256513">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="469" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1602614256513" />
+    <state x="625" y="256" key="run.anything.popup" timestamp="1602616141188">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="256" key="run.anything.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1602616141188" />
   </component>
 </project>
