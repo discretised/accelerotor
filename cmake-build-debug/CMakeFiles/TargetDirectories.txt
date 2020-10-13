@@ -1,0 +1,3 @@
+/Users/rahul/CLionProjects/fc_hack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/rahul/CLionProjects/fc_hack/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rahul/CLionProjects/fc_hack/cmake-build-debug/CMakeFiles/fc_hack.elf.dir
