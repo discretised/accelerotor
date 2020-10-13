@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/rahul/CLionProjects/fc_hack
+CMAKE_SOURCE_DIR = /Users/rahul/CLionProjects/accelerotor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/rahul/CLionProjects/fc_hack/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/rahul/CLionProjects/accelerotor/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rahul/CLionProjects/fc_hack/cmake-build-debug/CMakeFiles /Users/rahul/CLionProjects/fc_hack/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles /Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rahul/CLionProjects/fc_hack/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,152 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named fc_hack.elf
+# Target rules for targets named accelerotor.elf
 
 # Build rule for target.
-fc_hack.elf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 fc_hack.elf
-.PHONY : fc_hack.elf
+accelerotor.elf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 accelerotor.elf
+.PHONY : accelerotor.elf
 
 # fast build rule for target.
-fc_hack.elf/fast:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/build
-.PHONY : fc_hack.elf/fast
+accelerotor.elf/fast:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/build
+.PHONY : accelerotor.elf/fast
+
+Core/Src/main.obj: Core/Src/main.c.obj
+
+.PHONY : Core/Src/main.obj
+
+# target to build an object file
+Core/Src/main.c.obj:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj
+.PHONY : Core/Src/main.c.obj
+
+Core/Src/main.i: Core/Src/main.c.i
+
+.PHONY : Core/Src/main.i
+
+# target to preprocess a source file
+Core/Src/main.c.i:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.i
+.PHONY : Core/Src/main.c.i
+
+Core/Src/main.s: Core/Src/main.c.s
+
+.PHONY : Core/Src/main.s
+
+# target to generate assembly for a file
+Core/Src/main.c.s:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.s
+.PHONY : Core/Src/main.c.s
+
+Core/Src/stm32f4xx_hal_msp.obj: Core/Src/stm32f4xx_hal_msp.c.obj
+
+.PHONY : Core/Src/stm32f4xx_hal_msp.obj
+
+# target to build an object file
+Core/Src/stm32f4xx_hal_msp.c.obj:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+.PHONY : Core/Src/stm32f4xx_hal_msp.c.obj
+
+Core/Src/stm32f4xx_hal_msp.i: Core/Src/stm32f4xx_hal_msp.c.i
+
+.PHONY : Core/Src/stm32f4xx_hal_msp.i
+
+# target to preprocess a source file
+Core/Src/stm32f4xx_hal_msp.c.i:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i
+.PHONY : Core/Src/stm32f4xx_hal_msp.c.i
+
+Core/Src/stm32f4xx_hal_msp.s: Core/Src/stm32f4xx_hal_msp.c.s
+
+.PHONY : Core/Src/stm32f4xx_hal_msp.s
+
+# target to generate assembly for a file
+Core/Src/stm32f4xx_hal_msp.c.s:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s
+.PHONY : Core/Src/stm32f4xx_hal_msp.c.s
+
+Core/Src/stm32f4xx_it.obj: Core/Src/stm32f4xx_it.c.obj
+
+.PHONY : Core/Src/stm32f4xx_it.obj
+
+# target to build an object file
+Core/Src/stm32f4xx_it.c.obj:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj
+.PHONY : Core/Src/stm32f4xx_it.c.obj
+
+Core/Src/stm32f4xx_it.i: Core/Src/stm32f4xx_it.c.i
+
+.PHONY : Core/Src/stm32f4xx_it.i
+
+# target to preprocess a source file
+Core/Src/stm32f4xx_it.c.i:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.i
+.PHONY : Core/Src/stm32f4xx_it.c.i
+
+Core/Src/stm32f4xx_it.s: Core/Src/stm32f4xx_it.c.s
+
+.PHONY : Core/Src/stm32f4xx_it.s
+
+# target to generate assembly for a file
+Core/Src/stm32f4xx_it.c.s:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.s
+.PHONY : Core/Src/stm32f4xx_it.c.s
+
+Core/Src/syscalls.obj: Core/Src/syscalls.c.obj
+
+.PHONY : Core/Src/syscalls.obj
+
+# target to build an object file
+Core/Src/syscalls.c.obj:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/syscalls.c.obj
+.PHONY : Core/Src/syscalls.c.obj
+
+Core/Src/syscalls.i: Core/Src/syscalls.c.i
+
+.PHONY : Core/Src/syscalls.i
+
+# target to preprocess a source file
+Core/Src/syscalls.c.i:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/syscalls.c.i
+.PHONY : Core/Src/syscalls.c.i
+
+Core/Src/syscalls.s: Core/Src/syscalls.c.s
+
+.PHONY : Core/Src/syscalls.s
+
+# target to generate assembly for a file
+Core/Src/syscalls.c.s:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/syscalls.c.s
+.PHONY : Core/Src/syscalls.c.s
+
+Core/Src/system_stm32f4xx.obj: Core/Src/system_stm32f4xx.c.obj
+
+.PHONY : Core/Src/system_stm32f4xx.obj
+
+# target to build an object file
+Core/Src/system_stm32f4xx.c.obj:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/system_stm32f4xx.c.obj
+.PHONY : Core/Src/system_stm32f4xx.c.obj
+
+Core/Src/system_stm32f4xx.i: Core/Src/system_stm32f4xx.c.i
+
+.PHONY : Core/Src/system_stm32f4xx.i
+
+# target to preprocess a source file
+Core/Src/system_stm32f4xx.c.i:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/system_stm32f4xx.c.i
+.PHONY : Core/Src/system_stm32f4xx.c.i
+
+Core/Src/system_stm32f4xx.s: Core/Src/system_stm32f4xx.c.s
+
+.PHONY : Core/Src/system_stm32f4xx.s
+
+# target to generate assembly for a file
+Core/Src/system_stm32f4xx.c.s:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/system_stm32f4xx.c.s
+.PHONY : Core/Src/system_stm32f4xx.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 
@@ -129,7 +264,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
@@ -138,7 +273,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i: Drivers/STM32F4xx_HAL_Driver/S
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
@@ -147,7 +282,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s: Drivers/STM32F4xx_HAL_Driver/S
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
@@ -156,7 +291,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
@@ -165,7 +300,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
@@ -174,7 +309,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
@@ -183,7 +318,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
@@ -192,7 +327,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
@@ -201,7 +336,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
@@ -210,7 +345,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
@@ -219,7 +354,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
@@ -228,7 +363,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
@@ -237,7 +372,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.obj: Drivers/STM32F4xx_HAL_D
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
@@ -246,7 +381,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.i: Drivers/STM32F4xx_HAL_Dri
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
@@ -255,7 +390,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.s: Drivers/STM32F4xx_HAL_Dri
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
@@ -264,7 +399,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.obj: Drivers/STM32F4xx_HAL_
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
@@ -273,7 +408,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.i: Drivers/STM32F4xx_HAL_Dr
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
@@ -282,7 +417,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.s: Drivers/STM32F4xx_HAL_Dr
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
@@ -291,7 +426,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.obj: Drivers/STM32F4xx_H
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
@@ -300,7 +435,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.i: Drivers/STM32F4xx_HAL
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
@@ -309,7 +444,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.s: Drivers/STM32F4xx_HAL
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
@@ -318,7 +453,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.obj: Drivers/STM32F
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
@@ -327,7 +462,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.i: Drivers/STM32F4x
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
@@ -336,7 +471,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.s: Drivers/STM32F4x
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
@@ -345,7 +480,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.obj: Drivers/STM32F4xx_HAL_D
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
@@ -354,7 +489,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.i: Drivers/STM32F4xx_HAL_Dri
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
@@ -363,7 +498,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.s: Drivers/STM32F4xx_HAL_Dri
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
@@ -372,7 +507,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
@@ -381,7 +516,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
@@ -390,7 +525,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
@@ -399,7 +534,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
@@ -408,7 +543,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
@@ -417,7 +552,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
@@ -426,7 +561,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
@@ -435,7 +570,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
@@ -444,7 +579,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
@@ -453,7 +588,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
@@ -462,7 +597,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
@@ -471,7 +606,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
@@ -480,7 +615,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
@@ -489,7 +624,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
@@ -498,7 +633,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
@@ -507,7 +642,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
@@ -516,7 +651,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
@@ -525,7 +660,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
@@ -534,7 +669,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj: Drivers/STM32F4xx_HAL_Dr
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
@@ -543,7 +678,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i: Drivers/STM32F4xx_HAL_Driv
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
@@ -552,7 +687,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s: Drivers/STM32F4xx_HAL_Driv
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
@@ -561,7 +696,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.obj: Drivers/STM32F4xx_HAL
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
@@ -570,7 +705,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.i: Drivers/STM32F4xx_HAL_D
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
@@ -579,7 +714,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.s: Drivers/STM32F4xx_HAL_D
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
@@ -588,7 +723,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.obj: Drivers/STM32F4xx_HAL_D
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
@@ -597,7 +732,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.i: Drivers/STM32F4xx_HAL_Dri
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
@@ -606,7 +741,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.s: Drivers/STM32F4xx_HAL_Dri
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
@@ -615,7 +750,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.obj: Drivers/STM32F4xx_HAL_Dri
 
 # target to build an object file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
@@ -624,7 +759,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.i: Drivers/STM32F4xx_HAL_Drive
 
 # target to preprocess a source file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.i
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
@@ -633,7 +768,7 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.s: Drivers/STM32F4xx_HAL_Drive
 
 # target to generate assembly for a file
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.s
 
 Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
@@ -642,7 +777,7 @@ Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.obj: Middlewares/
 
 # target to build an object file
 Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
 
 Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
@@ -651,7 +786,7 @@ Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.i: Middlewares/ST
 
 # target to preprocess a source file
 Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.i
 
 Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s: Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
@@ -660,7 +795,7 @@ Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.s: Middlewares/ST
 
 # target to generate assembly for a file
 Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.s
 
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
@@ -669,7 +804,7 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: Middlewares/ST/S
 
 # target to build an object file
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
 
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
@@ -678,7 +813,7 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i: Middlewares/ST/STM
 
 # target to preprocess a source file
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
 
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
@@ -687,7 +822,7 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s: Middlewares/ST/STM
 
 # target to generate assembly for a file
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
 
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
@@ -696,7 +831,7 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: Middlewares/ST
 
 # target to build an object file
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
 
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
@@ -705,7 +840,7 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: Middlewares/ST/S
 
 # target to preprocess a source file
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
 
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
@@ -714,7 +849,7 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: Middlewares/ST/S
 
 # target to generate assembly for a file
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
 
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
@@ -723,7 +858,7 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: Middlewares/ST/
 
 # target to build an object file
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
 
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
@@ -732,7 +867,7 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: Middlewares/ST/ST
 
 # target to preprocess a source file
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
 
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
@@ -741,251 +876,116 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: Middlewares/ST/ST
 
 # target to generate assembly for a file
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
 
-Src/main.obj: Src/main.c.obj
+USB_DEVICE/App/usb_device.obj: USB_DEVICE/App/usb_device.c.obj
 
-.PHONY : Src/main.obj
-
-# target to build an object file
-Src/main.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/main.c.obj
-.PHONY : Src/main.c.obj
-
-Src/main.i: Src/main.c.i
-
-.PHONY : Src/main.i
-
-# target to preprocess a source file
-Src/main.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/main.c.i
-.PHONY : Src/main.c.i
-
-Src/main.s: Src/main.c.s
-
-.PHONY : Src/main.s
-
-# target to generate assembly for a file
-Src/main.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/main.c.s
-.PHONY : Src/main.c.s
-
-Src/stm32f4xx_hal_msp.obj: Src/stm32f4xx_hal_msp.c.obj
-
-.PHONY : Src/stm32f4xx_hal_msp.obj
+.PHONY : USB_DEVICE/App/usb_device.obj
 
 # target to build an object file
-Src/stm32f4xx_hal_msp.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/stm32f4xx_hal_msp.c.obj
-.PHONY : Src/stm32f4xx_hal_msp.c.obj
+USB_DEVICE/App/usb_device.c.obj:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usb_device.c.obj
+.PHONY : USB_DEVICE/App/usb_device.c.obj
 
-Src/stm32f4xx_hal_msp.i: Src/stm32f4xx_hal_msp.c.i
+USB_DEVICE/App/usb_device.i: USB_DEVICE/App/usb_device.c.i
 
-.PHONY : Src/stm32f4xx_hal_msp.i
+.PHONY : USB_DEVICE/App/usb_device.i
 
 # target to preprocess a source file
-Src/stm32f4xx_hal_msp.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/stm32f4xx_hal_msp.c.i
-.PHONY : Src/stm32f4xx_hal_msp.c.i
+USB_DEVICE/App/usb_device.c.i:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usb_device.c.i
+.PHONY : USB_DEVICE/App/usb_device.c.i
 
-Src/stm32f4xx_hal_msp.s: Src/stm32f4xx_hal_msp.c.s
+USB_DEVICE/App/usb_device.s: USB_DEVICE/App/usb_device.c.s
 
-.PHONY : Src/stm32f4xx_hal_msp.s
+.PHONY : USB_DEVICE/App/usb_device.s
 
 # target to generate assembly for a file
-Src/stm32f4xx_hal_msp.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/stm32f4xx_hal_msp.c.s
-.PHONY : Src/stm32f4xx_hal_msp.c.s
+USB_DEVICE/App/usb_device.c.s:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usb_device.c.s
+.PHONY : USB_DEVICE/App/usb_device.c.s
 
-Src/stm32f4xx_it.obj: Src/stm32f4xx_it.c.obj
+USB_DEVICE/App/usbd_cdc_if.obj: USB_DEVICE/App/usbd_cdc_if.c.obj
 
-.PHONY : Src/stm32f4xx_it.obj
+.PHONY : USB_DEVICE/App/usbd_cdc_if.obj
 
 # target to build an object file
-Src/stm32f4xx_it.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/stm32f4xx_it.c.obj
-.PHONY : Src/stm32f4xx_it.c.obj
+USB_DEVICE/App/usbd_cdc_if.c.obj:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.obj
 
-Src/stm32f4xx_it.i: Src/stm32f4xx_it.c.i
+USB_DEVICE/App/usbd_cdc_if.i: USB_DEVICE/App/usbd_cdc_if.c.i
 
-.PHONY : Src/stm32f4xx_it.i
+.PHONY : USB_DEVICE/App/usbd_cdc_if.i
 
 # target to preprocess a source file
-Src/stm32f4xx_it.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/stm32f4xx_it.c.i
-.PHONY : Src/stm32f4xx_it.c.i
+USB_DEVICE/App/usbd_cdc_if.c.i:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.i
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.i
 
-Src/stm32f4xx_it.s: Src/stm32f4xx_it.c.s
+USB_DEVICE/App/usbd_cdc_if.s: USB_DEVICE/App/usbd_cdc_if.c.s
 
-.PHONY : Src/stm32f4xx_it.s
+.PHONY : USB_DEVICE/App/usbd_cdc_if.s
 
 # target to generate assembly for a file
-Src/stm32f4xx_it.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/stm32f4xx_it.c.s
-.PHONY : Src/stm32f4xx_it.c.s
+USB_DEVICE/App/usbd_cdc_if.c.s:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_cdc_if.c.s
+.PHONY : USB_DEVICE/App/usbd_cdc_if.c.s
 
-Src/syscalls.obj: Src/syscalls.c.obj
+USB_DEVICE/App/usbd_desc.obj: USB_DEVICE/App/usbd_desc.c.obj
 
-.PHONY : Src/syscalls.obj
+.PHONY : USB_DEVICE/App/usbd_desc.obj
 
 # target to build an object file
-Src/syscalls.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/syscalls.c.obj
-.PHONY : Src/syscalls.c.obj
+USB_DEVICE/App/usbd_desc.c.obj:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
+.PHONY : USB_DEVICE/App/usbd_desc.c.obj
 
-Src/syscalls.i: Src/syscalls.c.i
+USB_DEVICE/App/usbd_desc.i: USB_DEVICE/App/usbd_desc.c.i
 
-.PHONY : Src/syscalls.i
+.PHONY : USB_DEVICE/App/usbd_desc.i
 
 # target to preprocess a source file
-Src/syscalls.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/syscalls.c.i
-.PHONY : Src/syscalls.c.i
+USB_DEVICE/App/usbd_desc.c.i:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.i
+.PHONY : USB_DEVICE/App/usbd_desc.c.i
 
-Src/syscalls.s: Src/syscalls.c.s
+USB_DEVICE/App/usbd_desc.s: USB_DEVICE/App/usbd_desc.c.s
 
-.PHONY : Src/syscalls.s
+.PHONY : USB_DEVICE/App/usbd_desc.s
 
 # target to generate assembly for a file
-Src/syscalls.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/syscalls.c.s
-.PHONY : Src/syscalls.c.s
+USB_DEVICE/App/usbd_desc.c.s:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/USB_DEVICE/App/usbd_desc.c.s
+.PHONY : USB_DEVICE/App/usbd_desc.c.s
 
-Src/system_stm32f4xx.obj: Src/system_stm32f4xx.c.obj
+USB_DEVICE/Target/usbd_conf.obj: USB_DEVICE/Target/usbd_conf.c.obj
 
-.PHONY : Src/system_stm32f4xx.obj
+.PHONY : USB_DEVICE/Target/usbd_conf.obj
 
 # target to build an object file
-Src/system_stm32f4xx.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/system_stm32f4xx.c.obj
-.PHONY : Src/system_stm32f4xx.c.obj
+USB_DEVICE/Target/usbd_conf.c.obj:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+.PHONY : USB_DEVICE/Target/usbd_conf.c.obj
 
-Src/system_stm32f4xx.i: Src/system_stm32f4xx.c.i
+USB_DEVICE/Target/usbd_conf.i: USB_DEVICE/Target/usbd_conf.c.i
 
-.PHONY : Src/system_stm32f4xx.i
-
-# target to preprocess a source file
-Src/system_stm32f4xx.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/system_stm32f4xx.c.i
-.PHONY : Src/system_stm32f4xx.c.i
-
-Src/system_stm32f4xx.s: Src/system_stm32f4xx.c.s
-
-.PHONY : Src/system_stm32f4xx.s
-
-# target to generate assembly for a file
-Src/system_stm32f4xx.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/system_stm32f4xx.c.s
-.PHONY : Src/system_stm32f4xx.c.s
-
-Src/usb_device.obj: Src/usb_device.c.obj
-
-.PHONY : Src/usb_device.obj
-
-# target to build an object file
-Src/usb_device.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/usb_device.c.obj
-.PHONY : Src/usb_device.c.obj
-
-Src/usb_device.i: Src/usb_device.c.i
-
-.PHONY : Src/usb_device.i
+.PHONY : USB_DEVICE/Target/usbd_conf.i
 
 # target to preprocess a source file
-Src/usb_device.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/usb_device.c.i
-.PHONY : Src/usb_device.c.i
+USB_DEVICE/Target/usbd_conf.c.i:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.i
+.PHONY : USB_DEVICE/Target/usbd_conf.c.i
 
-Src/usb_device.s: Src/usb_device.c.s
+USB_DEVICE/Target/usbd_conf.s: USB_DEVICE/Target/usbd_conf.c.s
 
-.PHONY : Src/usb_device.s
-
-# target to generate assembly for a file
-Src/usb_device.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/usb_device.c.s
-.PHONY : Src/usb_device.c.s
-
-Src/usbd_cdc_if.obj: Src/usbd_cdc_if.c.obj
-
-.PHONY : Src/usbd_cdc_if.obj
-
-# target to build an object file
-Src/usbd_cdc_if.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/usbd_cdc_if.c.obj
-.PHONY : Src/usbd_cdc_if.c.obj
-
-Src/usbd_cdc_if.i: Src/usbd_cdc_if.c.i
-
-.PHONY : Src/usbd_cdc_if.i
-
-# target to preprocess a source file
-Src/usbd_cdc_if.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/usbd_cdc_if.c.i
-.PHONY : Src/usbd_cdc_if.c.i
-
-Src/usbd_cdc_if.s: Src/usbd_cdc_if.c.s
-
-.PHONY : Src/usbd_cdc_if.s
+.PHONY : USB_DEVICE/Target/usbd_conf.s
 
 # target to generate assembly for a file
-Src/usbd_cdc_if.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/usbd_cdc_if.c.s
-.PHONY : Src/usbd_cdc_if.c.s
-
-Src/usbd_conf.obj: Src/usbd_conf.c.obj
-
-.PHONY : Src/usbd_conf.obj
-
-# target to build an object file
-Src/usbd_conf.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/usbd_conf.c.obj
-.PHONY : Src/usbd_conf.c.obj
-
-Src/usbd_conf.i: Src/usbd_conf.c.i
-
-.PHONY : Src/usbd_conf.i
-
-# target to preprocess a source file
-Src/usbd_conf.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/usbd_conf.c.i
-.PHONY : Src/usbd_conf.c.i
-
-Src/usbd_conf.s: Src/usbd_conf.c.s
-
-.PHONY : Src/usbd_conf.s
-
-# target to generate assembly for a file
-Src/usbd_conf.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/usbd_conf.c.s
-.PHONY : Src/usbd_conf.c.s
-
-Src/usbd_desc.obj: Src/usbd_desc.c.obj
-
-.PHONY : Src/usbd_desc.obj
-
-# target to build an object file
-Src/usbd_desc.c.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/usbd_desc.c.obj
-.PHONY : Src/usbd_desc.c.obj
-
-Src/usbd_desc.i: Src/usbd_desc.c.i
-
-.PHONY : Src/usbd_desc.i
-
-# target to preprocess a source file
-Src/usbd_desc.c.i:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/usbd_desc.c.i
-.PHONY : Src/usbd_desc.c.i
-
-Src/usbd_desc.s: Src/usbd_desc.c.s
-
-.PHONY : Src/usbd_desc.s
-
-# target to generate assembly for a file
-Src/usbd_desc.c.s:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/Src/usbd_desc.c.s
-.PHONY : Src/usbd_desc.c.s
+USB_DEVICE/Target/usbd_conf.c.s:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/USB_DEVICE/Target/usbd_conf.c.s
+.PHONY : USB_DEVICE/Target/usbd_conf.c.s
 
 startup/startup_stm32f411xe.obj: startup/startup_stm32f411xe.s.obj
 
@@ -993,7 +993,7 @@ startup/startup_stm32f411xe.obj: startup/startup_stm32f411xe.s.obj
 
 # target to build an object file
 startup/startup_stm32f411xe.s.obj:
-	$(MAKE) -f CMakeFiles/fc_hack.elf.dir/build.make CMakeFiles/fc_hack.elf.dir/startup/startup_stm32f411xe.s.obj
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/startup/startup_stm32f411xe.s.obj
 .PHONY : startup/startup_stm32f411xe.s.obj
 
 # Help Target
@@ -1004,7 +1004,22 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... fc_hack.elf"
+	@echo "... accelerotor.elf"
+	@echo "... Core/Src/main.obj"
+	@echo "... Core/Src/main.i"
+	@echo "... Core/Src/main.s"
+	@echo "... Core/Src/stm32f4xx_hal_msp.obj"
+	@echo "... Core/Src/stm32f4xx_hal_msp.i"
+	@echo "... Core/Src/stm32f4xx_hal_msp.s"
+	@echo "... Core/Src/stm32f4xx_it.obj"
+	@echo "... Core/Src/stm32f4xx_it.i"
+	@echo "... Core/Src/stm32f4xx_it.s"
+	@echo "... Core/Src/syscalls.obj"
+	@echo "... Core/Src/syscalls.i"
+	@echo "... Core/Src/syscalls.s"
+	@echo "... Core/Src/system_stm32f4xx.obj"
+	@echo "... Core/Src/system_stm32f4xx.i"
+	@echo "... Core/Src/system_stm32f4xx.s"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s"
@@ -1074,33 +1089,18 @@ help:
 	@echo "... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj"
 	@echo "... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i"
 	@echo "... Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s"
-	@echo "... Src/main.obj"
-	@echo "... Src/main.i"
-	@echo "... Src/main.s"
-	@echo "... Src/stm32f4xx_hal_msp.obj"
-	@echo "... Src/stm32f4xx_hal_msp.i"
-	@echo "... Src/stm32f4xx_hal_msp.s"
-	@echo "... Src/stm32f4xx_it.obj"
-	@echo "... Src/stm32f4xx_it.i"
-	@echo "... Src/stm32f4xx_it.s"
-	@echo "... Src/syscalls.obj"
-	@echo "... Src/syscalls.i"
-	@echo "... Src/syscalls.s"
-	@echo "... Src/system_stm32f4xx.obj"
-	@echo "... Src/system_stm32f4xx.i"
-	@echo "... Src/system_stm32f4xx.s"
-	@echo "... Src/usb_device.obj"
-	@echo "... Src/usb_device.i"
-	@echo "... Src/usb_device.s"
-	@echo "... Src/usbd_cdc_if.obj"
-	@echo "... Src/usbd_cdc_if.i"
-	@echo "... Src/usbd_cdc_if.s"
-	@echo "... Src/usbd_conf.obj"
-	@echo "... Src/usbd_conf.i"
-	@echo "... Src/usbd_conf.s"
-	@echo "... Src/usbd_desc.obj"
-	@echo "... Src/usbd_desc.i"
-	@echo "... Src/usbd_desc.s"
+	@echo "... USB_DEVICE/App/usb_device.obj"
+	@echo "... USB_DEVICE/App/usb_device.i"
+	@echo "... USB_DEVICE/App/usb_device.s"
+	@echo "... USB_DEVICE/App/usbd_cdc_if.obj"
+	@echo "... USB_DEVICE/App/usbd_cdc_if.i"
+	@echo "... USB_DEVICE/App/usbd_cdc_if.s"
+	@echo "... USB_DEVICE/App/usbd_desc.obj"
+	@echo "... USB_DEVICE/App/usbd_desc.i"
+	@echo "... USB_DEVICE/App/usbd_desc.s"
+	@echo "... USB_DEVICE/Target/usbd_conf.obj"
+	@echo "... USB_DEVICE/Target/usbd_conf.i"
+	@echo "... USB_DEVICE/Target/usbd_conf.s"
 	@echo "... startup/startup_stm32f411xe.obj"
 .PHONY : help
 

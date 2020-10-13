@@ -31,15 +31,15 @@ SET(CMAKE_CXX_FLAGS_INIT "${COMMON_FLAGS} -std=c++11")
 SET(CMAKE_C_FLAGS_INIT "${COMMON_FLAGS} -std=gnu99")
 SET(CMAKE_EXE_LINKER_FLAGS_INIT "-Wl,-gc-sections,--print-memory-usage -T ${LINKER_SCRIPT}")
 
-PROJECT(fc_hack C CXX ASM)
+PROJECT(accelerotor C CXX ASM)
 set(CMAKE_CXX_STANDARD 11)
 
 #add_definitions(-DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -D__FPU_PRESENT=1)
 add_definitions(-DUSE_HAL_DRIVER -DSTM32F411xE)
 
-file(GLOB_RECURSE SOURCES "startup/*.*" "Middlewares/*.*" "Drivers/*.*" "Src/*.*")
+file(GLOB_RECURSE SOURCES "startup/*.*" "USB_DEVICE/*.*" "Middlewares/*.*" "Drivers/*.*" "Core/*.*")
 
-include_directories(Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Middlewares/ST/STM32_USB_Device_Library/Core/Inc Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
+include_directories(USB_DEVICE/App USB_DEVICE/Target Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Middlewares/ST/STM32_USB_Device_Library/Core/Inc Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 

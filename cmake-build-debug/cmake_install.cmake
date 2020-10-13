@@ -1,4 +1,4 @@
-# Install script for directory: /Users/rahul/CLionProjects/fc_hack
+# Install script for directory: /Users/rahul/CLionProjects/accelerotor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/rahul/CLionProjects/fc_hack/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

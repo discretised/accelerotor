@@ -121,5 +121,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/fc_hack.elf.dir/DependInfo.cmake"
+  "CMakeFiles/accelerotor.elf.dir/DependInfo.cmake"
   )

@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration name="OCD accelerotor" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerotor" TARGET_NAME="accelerotor.elf" RUN_TARGET_PROJECT_NAME="accelerotor" RUN_TARGET_NAME="accelerotor.elf">
+    <openocd gdb-port="3333" telnet-port="4444" reset-type="INIT" download-type="ALWAYS" />
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
