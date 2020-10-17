@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../Core/Inc/MPU6000.h
+
 ../Core/Inc/main.h
 stm32f4xx_hal.h
 ../Core/Inc/stm32f4xx_hal.h
@@ -300,6 +302,10 @@ stm32f4xx_hal_rcc_ex.h
 stm32f4xx_hal_def.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
 
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+stm32f4xx_hal_def.h
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 stm32f4xx_hal_def.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
@@ -379,4 +385,6 @@ usb_device.h
 /Users/rahul/CLionProjects/accelerotor/Core/Src/usb_device.h
 usbd_cdc_if.h
 /Users/rahul/CLionProjects/accelerotor/Core/Src/usbd_cdc_if.h
+MPU6000.h
+/Users/rahul/CLionProjects/accelerotor/Core/Src/MPU6000.h
 

@@ -123,6 +123,33 @@ accelerotor.elf/fast:
 	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/build
 .PHONY : accelerotor.elf/fast
 
+Core/Src/MPU6000.obj: Core/Src/MPU6000.c.obj
+
+.PHONY : Core/Src/MPU6000.obj
+
+# target to build an object file
+Core/Src/MPU6000.c.obj:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/MPU6000.c.obj
+.PHONY : Core/Src/MPU6000.c.obj
+
+Core/Src/MPU6000.i: Core/Src/MPU6000.c.i
+
+.PHONY : Core/Src/MPU6000.i
+
+# target to preprocess a source file
+Core/Src/MPU6000.c.i:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/MPU6000.c.i
+.PHONY : Core/Src/MPU6000.c.i
+
+Core/Src/MPU6000.s: Core/Src/MPU6000.c.s
+
+.PHONY : Core/Src/MPU6000.s
+
+# target to generate assembly for a file
+Core/Src/MPU6000.c.s:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Core/Src/MPU6000.c.s
+.PHONY : Core/Src/MPU6000.c.s
+
 Core/Src/main.obj: Core/Src/main.c.obj
 
 .PHONY : Core/Src/main.obj
@@ -663,6 +690,33 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s:
 	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s
 
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj
+
+# target to build an object file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.i: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.i
+
+# target to preprocess a source file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i
+
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.s: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
+
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.s
+
+# target to generate assembly for a file
+Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s:
+	$(MAKE) -f CMakeFiles/accelerotor.elf.dir/build.make CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
+.PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.s
+
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
 
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj
@@ -1005,6 +1059,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... accelerotor.elf"
+	@echo "... Core/Src/MPU6000.obj"
+	@echo "... Core/Src/MPU6000.i"
+	@echo "... Core/Src/MPU6000.s"
 	@echo "... Core/Src/main.obj"
 	@echo "... Core/Src/main.i"
 	@echo "... Core/Src/main.s"
@@ -1065,6 +1122,9 @@ help:
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.obj"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.i"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.s"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.obj"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.i"
+	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.s"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.obj"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.i"
 	@echo "... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.s"

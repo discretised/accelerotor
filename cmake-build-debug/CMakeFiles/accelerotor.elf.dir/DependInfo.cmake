@@ -28,6 +28,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/rahul/CLionProjects/accelerotor/Core/Src/MPU6000.c" "/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/MPU6000.c.obj"
   "/Users/rahul/CLionProjects/accelerotor/Core/Src/main.c" "/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj"
   "/Users/rahul/CLionProjects/accelerotor/Core/Src/stm32f4xx_hal_msp.c" "/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
   "/Users/rahul/CLionProjects/accelerotor/Core/Src/stm32f4xx_it.c" "/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj"
@@ -48,6 +49,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" "/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
   "/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" "/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
   "/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" "/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+  "/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c" "/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
   "/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" "/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
   "/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" "/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
   "/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" "/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"

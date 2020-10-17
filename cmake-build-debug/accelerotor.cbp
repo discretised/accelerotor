@@ -102,6 +102,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Inc/MPU6000.h">
+			<Option target="accelerotor.elf"/>
+		</Unit>
 		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Inc/main.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
@@ -109,6 +112,9 @@
 			<Option target="accelerotor.elf"/>
 		</Unit>
 		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Inc/stm32f4xx_it.h">
+			<Option target="accelerotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Src/MPU6000.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
 		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Src/main.c">
@@ -252,6 +258,9 @@
 		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
+		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="accelerotor.elf"/>
+		</Unit>
 		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
@@ -307,6 +316,9 @@
 			<Option target="accelerotor.elf"/>
 		</Unit>
 		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="accelerotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
 		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">

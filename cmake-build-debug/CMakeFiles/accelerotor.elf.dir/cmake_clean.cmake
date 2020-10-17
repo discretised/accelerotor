@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/accelerotor.elf.dir/Core/Src/MPU6000.c.obj"
   "CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
   "CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj"
@@ -19,6 +20,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
   "CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
   "CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+  "CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
   "CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
   "CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
   "CMakeFiles/accelerotor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
