@@ -43,6 +43,8 @@
 
 /* Private variables ---------------------------------------------------------*/
 SPI_HandleTypeDef hspi1;
+DMA_HandleTypeDef hdma_spi1_rx;
+DMA_HandleTypeDef hdma_spi1_tx;
 
 TIM_HandleTypeDef htim2;
 TIM_HandleTypeDef htim4;
@@ -109,6 +111,13 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
         SBUSBuffer[i] = 0;
     }
 }
+
+void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
+{
+    MPU6000_deselect();
+    MPU6000_data = MPU6000_rx_buffer[1];
+    MPU6000_busy = 0;
+}
 /* USER CODE END 0 */
 
 /**
@@ -149,11 +158,11 @@ int main(void)
     //arm_motors();
     HAL_UART_Receive_IT(&huart2, SBUSBuffer, sizeof(SBUSBuffer));
     HAL_Delay(2000);
-    MPU6000_init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  MPU6000_init();
     while(1)
     {
     /* USER CODE END WHILE */
@@ -412,6 +421,7 @@ static void MX_DMA_Init(void)
 
   /* DMA controller clock enable */
   __HAL_RCC_DMA1_CLK_ENABLE();
+  __HAL_RCC_DMA2_CLK_ENABLE();
 
   /* DMA interrupt init */
   /* DMA1_Stream0_IRQn interrupt configuration */
@@ -426,6 +436,12 @@ static void MX_DMA_Init(void)
   /* DMA1_Stream5_IRQn interrupt configuration */
   HAL_NVIC_SetPriority(DMA1_Stream5_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(DMA1_Stream5_IRQn);
+  /* DMA2_Stream0_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA2_Stream0_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA2_Stream0_IRQn);
+  /* DMA2_Stream2_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA2_Stream2_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA2_Stream2_IRQn);
 
 }
 
@@ -546,11 +562,17 @@ void MPU6000_deselect(void)
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
 }
 
+void MPU6000_start_transfer(uint8_t TxData)
+{
+    MPU6000_tx_buffer[0] = TxData;
+    while(MPU6000_busy);
+    MPU6000_busy = 1;
+    MPU6000_select();
+    HAL_SPI_TransmitReceive_DMA(&hspi1, MPU6000_tx_buffer, MPU6000_rx_buffer, 2);
+}
+
 uint8_t MPU6000_init(void)
 {
-    uint8_t MPU6000_tx_buffer[2] = {0x00, 0x00};
-    uint8_t MPU6000_rx_buffer[2] = {0x00, 0x00};
-
     /*MPU6000_select();
     MPU6000_tx_buffer[0] = MPUREG_USER_CTRL;
     HAL_SPI_TransmitReceive(&hspi1, MPU6000_tx_buffer, MPU6000_rx_buffer, 2, HAL_MAX_DELAY);
@@ -567,17 +589,12 @@ uint8_t MPU6000_init(void)
     HAL_SPI_TransmitReceive(&hspi1, MPU6000_tx_buffer, MPU6000_rx_buffer, 2, HAL_MAX_DELAY);
     MPU6000_deselect();
     HAL_Delay(200);*/
-    MPU6000_rx_buffer[0] = 0;
-    MPU6000_rx_buffer[1]= 0;
 
-    uint8_t print_string[3];
-
-    MPU6000_select();
-    MPU6000_tx_buffer[0] = MPUREG_WHOAMI|READ_FLAG;
-    MPU6000_tx_buffer[1] = 0x00;
-    HAL_SPI_TransmitReceive(&hspi1, MPU6000_tx_buffer, MPU6000_rx_buffer, 2, HAL_MAX_DELAY);
-    MPU6000_deselect();
-
+    MPU6000_start_transfer(MPUREG_WHOAMI|READ_FLAG);
+    while(MPU6000_busy);
+    if(MPU6000_data == 104)
+        CDC_Transmit_FS("good", 4);
+    /*
 
     sprintf(print_string, "%d", MPU6000_rx_buffer[0]);
     CDC_Transmit_FS(print_string, 3);
@@ -585,7 +602,7 @@ uint8_t MPU6000_init(void)
     HAL_Delay(500);
     sprintf(print_string, "%d", MPU6000_rx_buffer[1]);
     CDC_Transmit_FS(print_string, 3);
-    CDC_Transmit_FS("  ", 2);
+    CDC_Transmit_FS("  ", 2);*/
 }
 /* USER CODE END 4 */
 

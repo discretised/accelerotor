@@ -102,6 +102,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/.DS_Store">
+			<Option target="accelerotor.elf"/>
+		</Unit>
 		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Inc/MPU6000.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
@@ -130,6 +133,21 @@
 			<Option target="accelerotor.elf"/>
 		</Unit>
 		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Src/system_stm32f4xx.c">
+			<Option target="accelerotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/.DS_Store">
+			<Option target="accelerotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/.DS_Store">
+			<Option target="accelerotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/.DS_Store">
+			<Option target="accelerotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/.DS_Store">
+			<Option target="accelerotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/.DS_Store">
 			<Option target="accelerotor.elf"/>
 		</Unit>
 		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h">

@@ -7,9 +7,13 @@
 
 void MPU6000_select(void);
 void MPU6000_deselect(void);
+void MPU6000_start_transfer(uint8_t TxData);
 uint8_t MPU6000_init(void);
 
-
+uint8_t MPU6000_busy = 0;
+uint8_t MPU6000_tx_buffer[2] = {0x00, 0x00};
+uint8_t MPU6000_rx_buffer[2] = {0x00, 0x00};
+uint8_t MPU6000_data = 0;
 // MPU6000 registers
 //REGISTER DEFINITIONS TAKEN FROM https://os.mbed.com/users/brunoalfano/code/MPU6000_spi/
 #define MPUREG_XG_OFFS_TC 0x00
