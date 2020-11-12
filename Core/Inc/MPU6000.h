@@ -7,12 +7,12 @@
 
 void MPU6000_select(void);
 void MPU6000_deselect(void);
-void MPU6000_start_transfer(uint8_t TxData);
-uint8_t MPU6000_init(void);
+void MPU6000_start_transfer(uint8_t TxData[], uint8_t length);
+uint8_t MPU6000_init(uint8_t sample_rate_div);
 
 uint8_t MPU6000_busy = 0;
-uint8_t MPU6000_tx_buffer[2] = {0x00, 0x00};
-uint8_t MPU6000_rx_buffer[2] = {0x00, 0x00};
+uint8_t MPU6000_tx_buffer[10];
+uint8_t MPU6000_rx_buffer[10];
 uint8_t MPU6000_data = 0;
 // MPU6000 registers
 //REGISTER DEFINITIONS TAKEN FROM https://os.mbed.com/users/brunoalfano/code/MPU6000_spi/
@@ -59,6 +59,7 @@ uint8_t MPU6000_data = 0;
 #define MPUREG_GYRO_YOUT_L 0x46
 #define MPUREG_GYRO_ZOUT_H 0x47
 #define MPUREG_GYRO_ZOUT_L 0x48
+#define MPUREG_SIGNAL_PATH_RESET 0x68
 #define MPUREG_USER_CTRL 0x6A
 #define MPUREG_PWR_MGMT_1 0x6B
 #define MPUREG_PWR_MGMT_2 0x6C
@@ -100,6 +101,7 @@ uint8_t MPU6000_data = 0;
 #define BIT_INT_ANYRD_2CLEAR        0x10
 #define BIT_RAW_RDY_EN              0x01
 #define BIT_I2C_IF_DIS              0x10
+#define BITS_SIGNAL_PATH_RESET      0x07
 
 #define READ_FLAG   0x80
 

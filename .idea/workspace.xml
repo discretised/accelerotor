@@ -32,17 +32,9 @@
     <list default="true" id="7f2502a7-fbab-478e-917b-647471525b0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Inc/MPU6000.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/MPU6000.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accelerotor.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/accelerotor.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/main.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/accelerotor.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/accelerotor.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/accelerotor.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/accelerotor.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/accelerotor.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/accelerotor.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/accelerotor.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/accelerotor.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/accelerotor.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/accelerotor.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/accelerotor.map" afterDir="false" />
@@ -70,7 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD accelerotor">
     <configuration name="accelerotor.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="accelerotor" TARGET_NAME="accelerotor.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="accelerotor" RUN_TARGET_NAME="accelerotor.elf">
@@ -98,6 +90,7 @@
       <workItem from="1603054809691" duration="15000" />
       <workItem from="1603121425019" duration="3154000" />
       <workItem from="1604700095727" duration="7021000" />
+      <workItem from="1605186034530" duration="2839000" />
     </task>
     <servers />
   </component>
@@ -117,18 +110,19 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="469" y="190" key="SettingsEditor" timestamp="1602614256513">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="469" y="171" key="SettingsEditor" timestamp="1605186008967">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="469" y="171" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1605186008967" />
     <state x="469" y="190" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1602614256513" />
     <state x="763" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603126182606">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="763" y="461" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603126182606" />
-    <state x="625" y="238" key="run.anything.popup" timestamp="1602888715290">
+    <state x="625" y="220" key="run.anything.popup" timestamp="1605186974409">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="625" y="238" key="run.anything.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1602888715290" />
+    <state x="625" y="220" key="run.anything.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1605186974409" />
     <state x="625" y="240" width="670" height="691" key="search.everywhere.popup" timestamp="1602883444548">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

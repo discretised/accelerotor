@@ -115,7 +115,6 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
 {
     MPU6000_deselect();
-    MPU6000_data = MPU6000_rx_buffer[1];
     MPU6000_busy = 0;
 }
 /* USER CODE END 0 */
@@ -162,7 +161,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  MPU6000_init();
+  MPU6000_init(8);
     while(1)
     {
     /* USER CODE END WHILE */
@@ -562,47 +561,73 @@ void MPU6000_deselect(void)
     HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
 }
 
-void MPU6000_start_transfer(uint8_t TxData)
+void MPU6000_start_transfer(uint8_t TxData[], uint8_t length)
 {
-    MPU6000_tx_buffer[0] = TxData;
+    //transfers the first [length] bytes of TxData
+    //responses are stored in MPU6000_rx_buffer
     while(MPU6000_busy);
     MPU6000_busy = 1;
     MPU6000_select();
-    HAL_SPI_TransmitReceive_DMA(&hspi1, MPU6000_tx_buffer, MPU6000_rx_buffer, 2);
+    HAL_SPI_TransmitReceive_DMA(&hspi1, TxData, MPU6000_rx_buffer, length);
+    for(int i = 0; i<10; i++)
+    {
+        MPU6000_tx_buffer[i] = 0x00;
+    }
 }
 
-uint8_t MPU6000_init(void)
+uint8_t MPU6000_init(uint8_t sample_rate_div)
 {
-    /*MPU6000_select();
+    //Disable i2c interface
     MPU6000_tx_buffer[0] = MPUREG_USER_CTRL;
-    HAL_SPI_TransmitReceive(&hspi1, MPU6000_tx_buffer, MPU6000_rx_buffer, 2, HAL_MAX_DELAY);
-    MPU6000_tx_buffer[0] = BIT_I2C_IF_DIS;
-    HAL_SPI_TransmitReceive(&hspi1, MPU6000_tx_buffer, MPU6000_rx_buffer, 2, HAL_MAX_DELAY);
-    MPU6000_deselect();
+    MPU6000_tx_buffer[1] = BIT_I2C_IF_DIS;
+    MPU6000_start_transfer(MPU6000_tx_buffer, 2);
+    while(MPU6000_busy);
 
-    HAL_Delay(100);
-    MPU6000_select();
+    //check the device is responding before proceeding
+    MPU6000_tx_buffer[0] = MPUREG_WHOAMI|READ_FLAG;
+    MPU6000_tx_buffer[1] = 0x00;
+    MPU6000_start_transfer(MPU6000_tx_buffer, 2);
+    while(MPU6000_busy);
+    if(MPU6000_rx_buffer[1] != 104)
+        return(0xEE);
+
+    //reset the device
     MPU6000_tx_buffer[0] = MPUREG_PWR_MGMT_1;
     MPU6000_tx_buffer[1] = BIT_H_RESET;
-    HAL_SPI_TransmitReceive(&hspi1, MPU6000_tx_buffer, MPU6000_rx_buffer, 2, HAL_MAX_DELAY);
-    MPU6000_tx_buffer[0] = BIT_I2C_IF_DIS;
-    HAL_SPI_TransmitReceive(&hspi1, MPU6000_tx_buffer, MPU6000_rx_buffer, 2, HAL_MAX_DELAY);
-    MPU6000_deselect();
-    HAL_Delay(200);*/
-
-    MPU6000_start_transfer(MPUREG_WHOAMI|READ_FLAG);
+    MPU6000_start_transfer(MPU6000_tx_buffer, 2);
     while(MPU6000_busy);
-    if(MPU6000_data == 104)
-        CDC_Transmit_FS("good", 4);
-    /*
+    HAL_Delay(100);
 
-    sprintf(print_string, "%d", MPU6000_rx_buffer[0]);
-    CDC_Transmit_FS(print_string, 3);
-    CDC_Transmit_FS("  ", 2);
-    HAL_Delay(500);
-    sprintf(print_string, "%d", MPU6000_rx_buffer[1]);
-    CDC_Transmit_FS(print_string, 3);
-    CDC_Transmit_FS("  ", 2);*/
+    //reset signal path as described in register descriptions, page 41
+    MPU6000_tx_buffer[0] = MPUREG_SIGNAL_PATH_RESET;
+    MPU6000_tx_buffer[1] = BITS_SIGNAL_PATH_RESET;
+    MPU6000_start_transfer(MPU6000_tx_buffer, 2);
+    while(MPU6000_busy);
+    HAL_Delay(100);
+
+    //disable i2c again after reset
+    MPU6000_tx_buffer[0] = MPUREG_USER_CTRL;
+    MPU6000_tx_buffer[1] = BIT_I2C_IF_DIS;
+    MPU6000_start_transfer(MPU6000_tx_buffer, 2);
+    while(MPU6000_busy);
+
+    //use GYRO Z as the clock instead of internal RC oscillator for improved stability
+    //important to do this before setting any other registers, otherwise they appear to reset. No mention of this in the
+    //datasheet or register descriptions though...
+    MPU6000_tx_buffer[0] = MPUREG_PWR_MGMT_1;
+    MPU6000_tx_buffer[1] = MPU_CLK_SEL_PLLGYROZ;
+    MPU6000_start_transfer(MPU6000_tx_buffer, 2);
+    while(MPU6000_busy);
+
+    //set gyro sample rate divider. Formula is Sample Rate = Gyroscope Output Rate / (1 + sample_rate_div)
+    //gyro output rate defaults to 8kHz, or 1kHz when enabling the digital low pass filter.
+    if(sample_rate_div)
+    {
+        MPU6000_tx_buffer[0] = MPUREG_SMPLRT_DIV;
+        MPU6000_tx_buffer[1] = sample_rate_div;
+        MPU6000_start_transfer(MPU6000_tx_buffer, 2);
+        while (MPU6000_busy);
+    }
 }
 /* USER CODE END 4 */
 
