@@ -378,13 +378,13 @@ stm32f4xx.h
 stm32f4xx_hal.h
 ../USB_DEVICE/Target/stm32f4xx_hal.h
 
-/Users/rahul/CLionProjects/accelerotor/Core/Src/main.c
+/home/rahul/CLionProjects/accelerotor/Core/Src/main.c
 main.h
-/Users/rahul/CLionProjects/accelerotor/Core/Src/main.h
+/home/rahul/CLionProjects/accelerotor/Core/Src/main.h
 usb_device.h
-/Users/rahul/CLionProjects/accelerotor/Core/Src/usb_device.h
+/home/rahul/CLionProjects/accelerotor/Core/Src/usb_device.h
 usbd_cdc_if.h
-/Users/rahul/CLionProjects/accelerotor/Core/Src/usbd_cdc_if.h
+/home/rahul/CLionProjects/accelerotor/Core/Src/usbd_cdc_if.h
 MPU6000.h
-/Users/rahul/CLionProjects/accelerotor/Core/Src/MPU6000.h
+/home/rahul/CLionProjects/accelerotor/Core/Src/MPU6000.h
 

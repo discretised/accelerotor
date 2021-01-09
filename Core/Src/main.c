@@ -164,14 +164,30 @@ int main(void)
     HAL_UART_Receive_IT(&huart2, SBUSBuffer, sizeof(SBUSBuffer));
 
     //initialise the MPU6000 IMU
+    HAL_Delay(2000);
     if(MPU6000_init(0) != 0)
         Error_Handler();
     /* USER CODE END 2 */
 
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
+    int16_t gyrox;
+    int16_t gyroy;
+    int16_t gyroz;
+
     while(1)
     {
+        MPU6000_read_gyro();
+        gyrox = MPU6000_rx_buffer[1] << 8 | MPU6000_rx_buffer[2];
+        gyroy = MPU6000_rx_buffer[3] << 8 | MPU6000_rx_buffer[4];
+        gyroz = MPU6000_rx_buffer[5] << 8 | MPU6000_rx_buffer[6];
+
+        char print_string[15];
+        sprintf(print_string, "Gyro z: %i\r\n", gyroz);
+
+        CDC_Transmit_FS(print_string, 15);
+
+        HAL_Delay(100);
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
@@ -651,17 +667,15 @@ uint8_t MPU6000_read_gyro(void)
 
     MPU6000_gyro_read_flag = 1;
 
-    MPU6000_tx_buffer[0] = MPUREG_GYRO_XOUT_H;
+    MPU6000_tx_buffer[0] = MPUREG_GYRO_XOUT_H | READ_FLAG;
     MPU6000_tx_buffer[1] = 0x00;
     MPU6000_tx_buffer[2] = 0x00;
-    MPU6000_tx_buffer[3] = MPUREG_GYRO_YOUT_H;
+    MPU6000_tx_buffer[3] = MPUREG_GYRO_YOUT_H | READ_FLAG;
     MPU6000_tx_buffer[4] = 0x00;
-    MPU6000_tx_buffer[5] = 0x00;
-    MPU6000_tx_buffer[6] = MPUREG_GYRO_ZOUT_H;
-    MPU6000_tx_buffer[7] = 0x00;
-    MPU6000_tx_buffer[8] = 0x00;
+    MPU6000_tx_buffer[5] = MPUREG_GYRO_ZOUT_H | READ_FLAG;
+    MPU6000_tx_buffer[6] = 0x00;
 
-    MPU6000_start_transfer(MPU6000_tx_buffer, 9);
+    MPU6000_start_transfer(MPU6000_tx_buffer, 6);
 }
 
 uint8_t MPU6000_gyro_selftest(uint8_t channel)

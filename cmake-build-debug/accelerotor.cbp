@@ -8,407 +8,407 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/rahul/CLionProjects/accelerotor/cmake-build-debug"/>
+				<Option working_dir="/home/rahul/CLionProjects/accelerotor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/rahul/CLionProjects/accelerotor/cmake-build-debug"/>
+				<Option working_dir="/home/rahul/CLionProjects/accelerotor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/rahul/CLionProjects/accelerotor/cmake-build-debug"/>
+				<Option working_dir="/home/rahul/CLionProjects/accelerotor/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="accelerotor.elf">
-				<Option output="/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/accelerotor.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/rahul/CLionProjects/accelerotor/cmake-build-debug"/>
+				<Option output="/home/rahul/CLionProjects/accelerotor/cmake-build-debug/accelerotor.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rahul/CLionProjects/accelerotor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F411xE"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/USB_DEVICE/App"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/USB_DEVICE/Target"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Core/Inc"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include"/>
-					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1"/>
-					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
-					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/backward"/>
-					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include"/>
-					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
-					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/USB_DEVICE/App"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/USB_DEVICE/Target"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Core/Inc"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 accelerotor.elf"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 accelerotor.elf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="accelerotor.elf/fast">
-				<Option output="/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/accelerotor.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/rahul/CLionProjects/accelerotor/cmake-build-debug"/>
+				<Option output="/home/rahul/CLionProjects/accelerotor/cmake-build-debug/accelerotor.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rahul/CLionProjects/accelerotor/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F411xE"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/USB_DEVICE/App"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/USB_DEVICE/Target"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Core/Inc"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include"/>
-					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1"/>
-					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
-					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/backward"/>
-					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include"/>
-					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
-					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20160928/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/USB_DEVICE/App"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/USB_DEVICE/Target"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Core/Inc"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="/usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 accelerotor.elf/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 accelerotor.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/rahul/CLionProjects/accelerotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/.DS_Store">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Core/.DS_Store">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Inc/MPU6000.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Core/Inc/MPU6000.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Inc/main.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Core/Inc/main.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Inc/stm32f4xx_hal_conf.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Core/Inc/stm32f4xx_hal_conf.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Inc/stm32f4xx_it.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Core/Inc/stm32f4xx_it.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Src/MPU6000.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Core/Src/MPU6000.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Src/main.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Core/Src/main.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Src/stm32f4xx_hal_msp.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Core/Src/stm32f4xx_hal_msp.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Src/stm32f4xx_it.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Core/Src/stm32f4xx_it.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Src/syscalls.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Core/Src/syscalls.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Core/Src/system_stm32f4xx.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Core/Src/system_stm32f4xx.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/.DS_Store">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/.DS_Store">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/.DS_Store">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/.DS_Store">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/.DS_Store">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/.DS_Store">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/.DS_Store">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/.DS_Store">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/.DS_Store">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/.DS_Store">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/STM32F411CEUx_FLASH.ld">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/STM32F411CEUx_FLASH.ld">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/USB_DEVICE/App/usb_device.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/USB_DEVICE/App/usb_device.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/USB_DEVICE/App/usb_device.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/USB_DEVICE/App/usb_device.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/USB_DEVICE/App/usbd_cdc_if.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/USB_DEVICE/App/usbd_cdc_if.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/USB_DEVICE/App/usbd_cdc_if.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/USB_DEVICE/App/usbd_cdc_if.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/USB_DEVICE/App/usbd_desc.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/USB_DEVICE/App/usbd_desc.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/USB_DEVICE/App/usbd_desc.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/USB_DEVICE/App/usbd_desc.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/USB_DEVICE/Target/usbd_conf.c">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/USB_DEVICE/Target/usbd_conf.c">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/USB_DEVICE/Target/usbd_conf.h">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/USB_DEVICE/Target/usbd_conf.h">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/startup/startup_stm32f411xe.s">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/startup/startup_stm32f411xe.s">
 			<Option target="accelerotor.elf"/>
 		</Unit>
-		<Unit filename="/Users/rahul/CLionProjects/accelerotor/CMakeLists.txt">
+		<Unit filename="/home/rahul/CLionProjects/accelerotor/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

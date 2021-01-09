@@ -1,8 +1,8 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/rahul/CLionProjects/accelerotor
--- The C compiler identification is GNU 5.4.1
--- The CXX compiler identification is GNU 5.4.1
+/opt/clion-2020.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/rahul/CLionProjects/accelerotor
+-- The C compiler identification is GNU 9.2.1
+-- The CXX compiler identification is GNU 9.2.1
 -- The ASM compiler identification is GNU
--- Found assembler: /usr/local/bin/arm-none-eabi-gcc
+-- Found assembler: /usr/bin/arm-none-eabi-gcc
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/rahul/CLionProjects/accelerotor/cmake-build-debug
+-- Build files have been written to: /home/rahul/CLionProjects/accelerotor/cmake-build-debug
