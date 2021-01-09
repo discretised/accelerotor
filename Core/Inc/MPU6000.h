@@ -9,11 +9,19 @@ void MPU6000_select(void);
 void MPU6000_deselect(void);
 void MPU6000_start_transfer(uint8_t TxData[], uint8_t length);
 uint8_t MPU6000_init(uint8_t sample_rate_div);
+uint8_t MPU6000_read_gyro(void);
+uint8_t MPU6000_read_accel(void);
+
 
 uint8_t MPU6000_busy = 0;
+uint8_t MPU6000_gyro_read_flag = 0;
+uint8_t MPU6000_accel_read_flag = 0;
 uint8_t MPU6000_tx_buffer[10];
 uint8_t MPU6000_rx_buffer[10];
-uint8_t MPU6000_data = 0;
+
+float MPU6000_gyro_readings[3];
+float MPU6000_accel_readings[3];
+
 // MPU6000 registers
 //REGISTER DEFINITIONS TAKEN FROM https://os.mbed.com/users/brunoalfano/code/MPU6000_spi/
 #define MPUREG_XG_OFFS_TC 0x00
