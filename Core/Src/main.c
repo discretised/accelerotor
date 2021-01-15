@@ -64,16 +64,13 @@ uint16_t SBUSChannelValues[18];
 //channel 3: yaw
 
 uint32_t DSHOT_buffer[4][47] = {0};
-//motor 1: B0 (TIM2 channel 1)
-//motor 2:
-//motor 3:
-//motor 4:
 
 int16_t gyrox, gyroy, gyroz;
 float ex, ex1, ex2, ux, delta_ux;
 float ey, ey1, ey2, uy, delta_uy;
 float ez, ez1, ez2, uz, delta_uz;
 
+//initialise PID gains here
 float kpx = 1;
 float kix = 0;
 float kdx = 0;
@@ -89,8 +86,10 @@ float kiz = 0.1;
 float kdz = 0.5;
 float k1z, k2z, k3z;
 
+//how far above the base throttle we allow each axis of the PID controller to push the motors
+int throttle_base;
 int throttle_headroom;
-float throttle_headroom_percentage = 0.5;
+float throttle_headroom_percentage = 0.2;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -113,6 +112,7 @@ void PID_loop(void);
 /* USER CODE BEGIN 0 */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
+    //decode SBUS UART messages
     HAL_UART_Receive_IT(&huart2, SBUSBuffer, sizeof(SBUSBuffer));
 
     SBUSChannelValues[0]  = (uint16_t) ((SBUSBuffer[1]    |SBUSBuffer[2] <<8)                      & 0x07FF);
@@ -210,7 +210,10 @@ int main(void)
     {
         MPU6000_read_gyro();
         PID_loop();
+        //adjust this delay to adjust PID loop frequency
         HAL_Delay(1);
+
+        //this while loop ensures we can quickly disarm the quadcopter
         while(SBUSChannelValues[1] < 1600){
             spin_motor(1, 0);
             spin_motor(2, 0);
@@ -707,36 +710,19 @@ uint8_t MPU6000_read_gyro(void)
     MPU6000_start_transfer(MPU6000_tx_buffer, 6);
 }
 
-uint8_t MPU6000_gyro_selftest(uint8_t channel)
-{
-    //read gyro without self test enabled
-
-    //enable self test
-
-    //read gyro with self test enable
-
-    //STR = with self test - without self test
-
-    //read XG_TEST, YG_TEST, ZG_TEST
-
-    //change = (STR-FT)/FT * 100
-}
-
 void PID_loop(void)
 {
-    int throttle_base = SBUSChannelValues[2];
+    throttle_base = SBUSChannelValues[2];
     if(throttle_base < 200)
         throttle_base = 200;
     else if(throttle_base > 1800)
         throttle_base = 1800;
 
-    float throttle_percentage = (throttle_base - 200)/1600;
-
     throttle_headroom = throttle_headroom_percentage * throttle_base;
 
-    //read gyro
+    //read gyro. x and y axes inverted to follow a right-hand rule sign convention
     gyrox = MPU6000_rx_buffer[1] << 8 | MPU6000_rx_buffer[2];
-    gyrox = gyrox;
+    gyrox = -gyrox;
     gyroy = MPU6000_rx_buffer[3] << 8 | MPU6000_rx_buffer[4];
     gyroy = -gyroy;
     gyroz = MPU6000_rx_buffer[5] << 8 | MPU6000_rx_buffer[6];
@@ -764,10 +750,26 @@ void PID_loop(void)
     else if(uy > 32767)
         uy= 32767;
 
-    spin_motor(1, throttle_base - ((ux/32768) * throttle_headroom) - ((uy/32768) * throttle_headroom)) ;
-    spin_motor(2, throttle_base + ((ux/32768) * throttle_headroom) - ((uy/32768) * throttle_headroom));
-    spin_motor(3, throttle_base - ((ux/32768) * throttle_headroom) + ((uy/32768) * throttle_headroom));
-    spin_motor(4, throttle_base + ((ux/32768) * throttle_headroom) + ((uy/32768) * throttle_headroom));
+    //z axis
+    ez2 = ez1;
+    ez1 = ez;
+    ez = 0 - gyroz;
+    delta_uz = k1z*ez + k2z*ez1 + k3z*ez2;
+    uz = uz + delta_uz;
+
+    if(uz < -32768)
+        uz = -32768;
+    else if(uz > 32767)
+        uz= 32767;
+
+    spin_motor(1, throttle_base - ((ux/32768) * throttle_headroom) - ((uy/32768) * throttle_headroom)
+    + ((uz/32768) * throttle_headroom)) ;
+    spin_motor(2, throttle_base + ((ux/32768) * throttle_headroom) - ((uy/32768) * throttle_headroom)
+    - ((uz/32768) * throttle_headroom));
+    spin_motor(3, throttle_base - ((ux/32768) * throttle_headroom) + ((uy/32768) * throttle_headroom)
+    - ((uz/32768) * throttle_headroom));
+    spin_motor(4, throttle_base + ((ux/32768) * throttle_headroom) + ((uy/32768) * throttle_headroom)
+    + ((uz/32768) * throttle_headroom));
 }
 /* USER CODE END 4 */
 
