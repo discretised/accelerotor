@@ -1,4 +1,4 @@
-#rs974 4B25 project: quadcopter flight control 
+##rs974 4B25 project: quadcopter flight control 
 
 This program runs on the iFlight SucceX micro F4 flight controller (uses an STM32F411CE microcontroller and MPU6000 IMU).
 
