@@ -62,11 +62,35 @@ uint16_t SBUSChannelValues[18];
 //channel 1: pitch
 //channel 2: throttle
 //channel 3: yaw
+
 uint32_t DSHOT_buffer[4][47] = {0};
 //motor 1: B0 (TIM2 channel 1)
 //motor 2:
 //motor 3:
 //motor 4:
+
+int16_t gyrox, gyroy, gyroz;
+float ex, ex1, ex2, ux, delta_ux;
+float ey, ey1, ey2, uy, delta_uy;
+float ez, ez1, ez2, uz, delta_uz;
+
+float kpx = 1;
+float kix = 0;
+float kdx = 0;
+float k1x, k2x, k3x;
+
+float kpy = 1;
+float kiy = 0;
+float kdy = 0;
+float k1y, k2y, k3y;
+
+float kpz = 1;
+float kiz = 0.1;
+float kdz = 0.5;
+float k1z, k2z, k3z;
+
+int throttle_headroom;
+float throttle_headroom_percentage = 0.5;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -82,6 +106,7 @@ uint16_t generate_DSHOT_bitstream(uint16_t val);
 void set_DSHOT_PWM(uint8_t, uint16_t DSHOT_bitstream);
 void arm_motors(void);
 void spin_motor(uint8_t motor, uint16_t throttle);
+void PID_loop(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -132,7 +157,17 @@ void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
 int main(void)
 {
     /* USER CODE BEGIN 1 */
+    k1x = kpx + kix + kdx;
+    k2x = -kpx -2*kdx;
+    k3x = kdx;
 
+    k1y = kpy + kiy + kdy;
+    k2y = -kpy -2*kdy;
+    k3y = kdy;
+
+    k1z = kpz + kiz + kdz;
+    k2z = -kpz -2*kdz;
+    k3z = kdz;
     /* USER CODE END 1 */
 
     /* MCU Configuration--------------------------------------------------------*/
@@ -160,34 +195,28 @@ int main(void)
     MX_USB_DEVICE_Init();
     MX_SPI1_Init();
     /* USER CODE BEGIN 2 */
-    //arm_motors();
+    arm_motors();
     HAL_UART_Receive_IT(&huart2, SBUSBuffer, sizeof(SBUSBuffer));
 
     //initialise the MPU6000 IMU
-    HAL_Delay(2000);
     if(MPU6000_init(0) != 0)
         Error_Handler();
     /* USER CODE END 2 */
 
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
-    int16_t gyrox;
-    int16_t gyroy;
-    int16_t gyroz;
 
     while(1)
     {
         MPU6000_read_gyro();
-        gyrox = MPU6000_rx_buffer[1] << 8 | MPU6000_rx_buffer[2];
-        gyroy = MPU6000_rx_buffer[3] << 8 | MPU6000_rx_buffer[4];
-        gyroz = MPU6000_rx_buffer[5] << 8 | MPU6000_rx_buffer[6];
-
-        char print_string[15];
-        sprintf(print_string, "Gyro z: %i\r\n", gyroz);
-
-        CDC_Transmit_FS(print_string, 15);
-
-        HAL_Delay(100);
+        PID_loop();
+        HAL_Delay(1);
+        while(SBUSChannelValues[1] < 1600){
+            spin_motor(1, 0);
+            spin_motor(2, 0);
+            spin_motor(3, 0);
+            spin_motor(4, 0);
+        }
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
@@ -692,6 +721,54 @@ uint8_t MPU6000_gyro_selftest(uint8_t channel)
 
     //change = (STR-FT)/FT * 100
 }
+
+void PID_loop(void)
+{
+    int throttle_base = SBUSChannelValues[2];
+    if(throttle_base < 200)
+        throttle_base = 200;
+    else if(throttle_base > 1800)
+        throttle_base = 1800;
+
+    float throttle_percentage = (throttle_base - 200)/1600;
+
+    throttle_headroom = throttle_headroom_percentage * throttle_base;
+
+    //read gyro
+    gyrox = MPU6000_rx_buffer[1] << 8 | MPU6000_rx_buffer[2];
+    gyrox = gyrox;
+    gyroy = MPU6000_rx_buffer[3] << 8 | MPU6000_rx_buffer[4];
+    gyroy = -gyroy;
+    gyroz = MPU6000_rx_buffer[5] << 8 | MPU6000_rx_buffer[6];
+
+    //x axis
+    ex2 = ex1;
+    ex1 = ex;
+    ex = 0 - gyrox;
+    delta_ux = k1x*ex + k2x*ex1 + k3x*ex2;
+    ux = ux + delta_ux;
+    if(ux < -32768)
+        ux = -32768;
+    else if(ux > 32767)
+        ux = 32767;
+
+    //y axis
+    ey2 = ey1;
+    ey1 = ey;
+    ey = 0 - gyroy;
+    delta_uy = k1y*ey + k2y*ey1 + k3y*ey2;
+    uy = uy + delta_uy;
+
+    if(uy < -32768)
+        uy = -32768;
+    else if(uy > 32767)
+        uy= 32767;
+
+    spin_motor(1, throttle_base - ((ux/32768) * throttle_headroom) - ((uy/32768) * throttle_headroom)) ;
+    spin_motor(2, throttle_base + ((ux/32768) * throttle_headroom) - ((uy/32768) * throttle_headroom));
+    spin_motor(3, throttle_base - ((ux/32768) * throttle_headroom) + ((uy/32768) * throttle_headroom));
+    spin_motor(4, throttle_base + ((ux/32768) * throttle_headroom) + ((uy/32768) * throttle_headroom));
+}
 /* USER CODE END 4 */
 
 /**
@@ -705,6 +782,7 @@ void Error_Handler(void)
 
     /* USER CODE END Error_Handler_Debug */
 }
+
 
 #ifdef  USE_FULL_ASSERT
 /**
